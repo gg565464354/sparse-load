@@ -1,0 +1,40 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+csrc/my_cache_load/include
+csrc/my_cache_load/dist
+csrc/my_cache_load/build
+csrc/my_cache_load_bak/include
+csrc/my_cache_load_bak/dist
+csrc/my_cache_load_bak/build
+**/build
+**/CMakeFiles
+**/dist
+**/profile*
+csrc/cache_bench/build
+cache_test/*.jsonl
+cache_test/*.log
+cache_test/fig
+
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# MyCache data
+MyCache/speedup/tmp_data*
+MyCache/speedup/*.jsonl
+MyCache/speedup/*.json
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+__pycache__/
+*.pycSparseCache/accuracy/setup/weights/

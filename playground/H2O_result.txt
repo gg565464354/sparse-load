@@ -1,0 +1,57 @@
+--------------------------------------------------
+科目                                       | 准确率       
+--------------------------------------------------
+accountant                               | 40.00%    
+advanced_mathematics                     | 40.00%    
+art_studies                              | 80.00%    
+basic_medicine                           | 100.00%   
+business_administration                  | 60.00%    
+chinese_language_and_literature          | 100.00%   
+civil_servant                            | 80.00%    
+clinical_medicine                        | 60.00%    
+college_chemistry                        | 20.00%    
+college_economics                        | 60.00%    
+college_physics                          | 60.00%    
+college_programming                      | 40.00%    
+computer_architecture                    | 0.00%     
+computer_network                         | 40.00%    
+discrete_mathematics                     | 0.00%     
+education_science                        | 100.00%   
+electrical_engineer                      | 40.00%    
+environmental_impact_assessment_engineer | 80.00%    
+fire_engineer                            | 20.00%    
+high_school_biology                      | 100.00%   
+high_school_chemistry                    | 20.00%    
+high_school_chinese                      | 40.00%    
+high_school_geography                    | 100.00%   
+high_school_history                      | 80.00%    
+high_school_mathematics                  | 0.00%     
+high_school_physics                      | 60.00%    
+high_school_politics                     | 100.00%   
+ideological_and_moral_cultivation        | 100.00%   
+law                                      | 100.00%   
+legal_professional                       | 60.00%    
+logic                                    | 60.00%    
+mao_zedong_thought                       | 100.00%   
+marxism                                  | 80.00%    
+metrology_engineer                       | 100.00%   
+middle_school_biology                    | 100.00%   
+middle_school_chemistry                  | 60.00%    
+middle_school_geography                  | 100.00%   
+middle_school_history                    | 80.00%    
+middle_school_mathematics                | 0.00%     
+middle_school_physics                    | 100.00%   
+middle_school_politics                   | 100.00%   
+modern_chinese_history                   | 100.00%   
+operating_system                         | 40.00%    
+physician                                | 80.00%    
+plant_protection                         | 100.00%   
+probability_and_statistics               | 20.00%    
+professional_tour_guide                  | 80.00%    
+sports_science                           | 40.00%    
+tax_accountant                           | 40.00%    
+teacher_qualification                    | 60.00%    
+urban_and_rural_planner                  | 80.00%    
+veterinary_medicine                      | 40.00%    
+--------------------------------------------------
+📊 **平均准确率 (Average Accuracy): 64.23%**

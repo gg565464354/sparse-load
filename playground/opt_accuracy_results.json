@@ -1,0 +1,8 @@
+{
+  "f1_scores": [],
+  "generation_times": [],
+  "mean_f1": NaN,
+  "mean_time": NaN,
+  "skipped_samples": 150,
+  "total_samples": 150
+}

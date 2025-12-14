@@ -1,0 +1,1701 @@
+{
+  "layers": [
+    {
+      "layer_idx": 0,
+      "forward_count": 0,
+      "step_count": 0,
+      "current_cache_size": 0,
+      "total_hits": 0,
+      "total_candidates": 0,
+      "hit_rate": 0.0,
+      "group_stats": {},
+      "rebuild_events": 0,
+      "rebuild_events_per_group": {},
+      "head_stats": {},
+      "average_hit_rate": 0.0
+    },
+    {
+      "layer_idx": 1,
+      "forward_count": 0,
+      "step_count": 0,
+      "current_cache_size": 0,
+      "total_hits": 0,
+      "total_candidates": 0,
+      "hit_rate": 0.0,
+      "group_stats": {},
+      "rebuild_events": 0,
+      "rebuild_events_per_group": {},
+      "head_stats": {},
+      "average_hit_rate": 0.0
+    },
+    {
+      "layer_idx": 2,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 420,
+      "total_hits": 1226534,
+      "total_candidates": 1461973,
+      "hit_rate": 0.8389580382127441,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 156973,
+          "candidate_tokens": 187470,
+          "hit_rate": 0.8373233050621433
+        },
+        "1": {
+          "hit_tokens": 156009,
+          "candidate_tokens": 185077,
+          "hit_rate": 0.8429410461591662
+        },
+        "2": {
+          "hit_tokens": 179278,
+          "candidate_tokens": 207372,
+          "hit_rate": 0.8645236579673244
+        },
+        "3": {
+          "hit_tokens": 146589,
+          "candidate_tokens": 174446,
+          "hit_rate": 0.8403116150556619
+        },
+        "4": {
+          "hit_tokens": 171114,
+          "candidate_tokens": 198726,
+          "hit_rate": 0.8610549198393769
+        },
+        "5": {
+          "hit_tokens": 127084,
+          "candidate_tokens": 153790,
+          "hit_rate": 0.8263476168801612
+        },
+        "6": {
+          "hit_tokens": 144725,
+          "candidate_tokens": 177252,
+          "hit_rate": 0.8164929027599125
+        },
+        "7": {
+          "hit_tokens": 144762,
+          "candidate_tokens": 177840,
+          "hit_rate": 0.8140013495276653
+        }
+      },
+      "rebuild_events": 2719,
+      "rebuild_events_per_group": {
+        "2": 553,
+        "4": 546,
+        "0": 317,
+        "1": 287,
+        "3": 263,
+        "5": 202,
+        "6": 276,
+        "7": 275
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8389580382127441
+    },
+    {
+      "layer_idx": 3,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 425,
+      "total_hits": 1273720,
+      "total_candidates": 1513047,
+      "hit_rate": 0.841824477362567,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 158185,
+          "candidate_tokens": 187183,
+          "hit_rate": 0.8450820854457937
+        },
+        "1": {
+          "hit_tokens": 164070,
+          "candidate_tokens": 195808,
+          "hit_rate": 0.8379126491256741
+        },
+        "2": {
+          "hit_tokens": 154209,
+          "candidate_tokens": 187298,
+          "hit_rate": 0.8233350062467298
+        },
+        "3": {
+          "hit_tokens": 126332,
+          "candidate_tokens": 157354,
+          "hit_rate": 0.8028521677237312
+        },
+        "4": {
+          "hit_tokens": 182157,
+          "candidate_tokens": 211038,
+          "hit_rate": 0.8631478691041424
+        },
+        "5": {
+          "hit_tokens": 166401,
+          "candidate_tokens": 190850,
+          "hit_rate": 0.8718941577154834
+        },
+        "6": {
+          "hit_tokens": 182496,
+          "candidate_tokens": 210011,
+          "hit_rate": 0.8689830532686383
+        },
+        "7": {
+          "hit_tokens": 139870,
+          "candidate_tokens": 173505,
+          "hit_rate": 0.8061439151609464
+        }
+      },
+      "rebuild_events": 3144,
+      "rebuild_events_per_group": {
+        "1": 523,
+        "4": 553,
+        "6": 553,
+        "0": 308,
+        "2": 310,
+        "3": 235,
+        "5": 386,
+        "7": 276
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.841824477362567
+    },
+    {
+      "layer_idx": 4,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 436,
+      "total_hits": 1343651,
+      "total_candidates": 1582108,
+      "hit_rate": 0.8492789367097568,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 159455,
+          "candidate_tokens": 187508,
+          "hit_rate": 0.850390383343644
+        },
+        "1": {
+          "hit_tokens": 166883,
+          "candidate_tokens": 197453,
+          "hit_rate": 0.8451783462393583
+        },
+        "2": {
+          "hit_tokens": 164027,
+          "candidate_tokens": 195080,
+          "hit_rate": 0.8408191511174903
+        },
+        "3": {
+          "hit_tokens": 170884,
+          "candidate_tokens": 202203,
+          "hit_rate": 0.8451111012200611
+        },
+        "4": {
+          "hit_tokens": 185758,
+          "candidate_tokens": 212951,
+          "hit_rate": 0.8723039572483811
+        },
+        "5": {
+          "hit_tokens": 166460,
+          "candidate_tokens": 195287,
+          "hit_rate": 0.8523864875798184
+        },
+        "6": {
+          "hit_tokens": 163848,
+          "candidate_tokens": 195243,
+          "hit_rate": 0.8392003810635976
+        },
+        "7": {
+          "hit_tokens": 166336,
+          "candidate_tokens": 196383,
+          "hit_rate": 0.8469979580717272
+        }
+      },
+      "rebuild_events": 4014,
+      "rebuild_events_per_group": {
+        "0": 321,
+        "1": 537,
+        "2": 501,
+        "3": 553,
+        "4": 553,
+        "5": 509,
+        "6": 517,
+        "7": 523
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8492789367097568
+    },
+    {
+      "layer_idx": 5,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 389,
+      "total_hits": 1150137,
+      "total_candidates": 1403237,
+      "hit_rate": 0.819631323860474,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 142663,
+          "candidate_tokens": 176594,
+          "hit_rate": 0.8078587041462337
+        },
+        "1": {
+          "hit_tokens": 127909,
+          "candidate_tokens": 158618,
+          "hit_rate": 0.8063964997667352
+        },
+        "2": {
+          "hit_tokens": 133945,
+          "candidate_tokens": 163326,
+          "hit_rate": 0.8201082497581524
+        },
+        "3": {
+          "hit_tokens": 150323,
+          "candidate_tokens": 183581,
+          "hit_rate": 0.8188374613930636
+        },
+        "4": {
+          "hit_tokens": 155417,
+          "candidate_tokens": 186409,
+          "hit_rate": 0.833741933061172
+        },
+        "5": {
+          "hit_tokens": 155966,
+          "candidate_tokens": 183853,
+          "hit_rate": 0.8483190374919093
+        },
+        "6": {
+          "hit_tokens": 139340,
+          "candidate_tokens": 172128,
+          "hit_rate": 0.8095138501580219
+        },
+        "7": {
+          "hit_tokens": 144574,
+          "candidate_tokens": 178728,
+          "hit_rate": 0.808905151962759
+        }
+      },
+      "rebuild_events": 2179,
+      "rebuild_events_per_group": {
+        "0": 276,
+        "1": 239,
+        "2": 242,
+        "3": 277,
+        "4": 309,
+        "5": 286,
+        "6": 274,
+        "7": 276
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.819631323860474
+    },
+    {
+      "layer_idx": 6,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 418,
+      "total_hits": 1218000,
+      "total_candidates": 1463556,
+      "hit_rate": 0.8322196075859072,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 163020,
+          "candidate_tokens": 192745,
+          "hit_rate": 0.8457806947002516
+        },
+        "1": {
+          "hit_tokens": 152099,
+          "candidate_tokens": 183742,
+          "hit_rate": 0.8277856995134482
+        },
+        "2": {
+          "hit_tokens": 161720,
+          "candidate_tokens": 193604,
+          "hit_rate": 0.8353133199727278
+        },
+        "3": {
+          "hit_tokens": 146016,
+          "candidate_tokens": 179044,
+          "hit_rate": 0.8155313777618909
+        },
+        "4": {
+          "hit_tokens": 145695,
+          "candidate_tokens": 178708,
+          "hit_rate": 0.8152684826644582
+        },
+        "5": {
+          "hit_tokens": 137976,
+          "candidate_tokens": 170663,
+          "hit_rate": 0.8084704944832799
+        },
+        "6": {
+          "hit_tokens": 139584,
+          "candidate_tokens": 164860,
+          "hit_rate": 0.8466820332403251
+        },
+        "7": {
+          "hit_tokens": 171890,
+          "candidate_tokens": 200190,
+          "hit_rate": 0.8586342974174535
+        }
+      },
+      "rebuild_events": 2800,
+      "rebuild_events_per_group": {
+        "0": 454,
+        "2": 475,
+        "7": 545,
+        "1": 281,
+        "3": 276,
+        "4": 275,
+        "5": 275,
+        "6": 219
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8322196075859072
+    },
+    {
+      "layer_idx": 7,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 401,
+      "total_hits": 1143669,
+      "total_candidates": 1402108,
+      "hit_rate": 0.8156782501775898,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 170857,
+          "candidate_tokens": 201074,
+          "hit_rate": 0.849721992898137
+        },
+        "1": {
+          "hit_tokens": 130977,
+          "candidate_tokens": 162497,
+          "hit_rate": 0.8060271881942436
+        },
+        "2": {
+          "hit_tokens": 136073,
+          "candidate_tokens": 170423,
+          "hit_rate": 0.7984426984620621
+        },
+        "3": {
+          "hit_tokens": 153656,
+          "candidate_tokens": 186216,
+          "hit_rate": 0.8251492889977231
+        },
+        "4": {
+          "hit_tokens": 138712,
+          "candidate_tokens": 172071,
+          "hit_rate": 0.8061323523429282
+        },
+        "5": {
+          "hit_tokens": 143724,
+          "candidate_tokens": 173147,
+          "hit_rate": 0.8300692475180049
+        },
+        "6": {
+          "hit_tokens": 134554,
+          "candidate_tokens": 167580,
+          "hit_rate": 0.8029239766081872
+        },
+        "7": {
+          "hit_tokens": 135116,
+          "candidate_tokens": 169100,
+          "hit_rate": 0.7990301596688351
+        }
+      },
+      "rebuild_events": 2469,
+      "rebuild_events_per_group": {
+        "0": 553,
+        "1": 256,
+        "2": 276,
+        "3": 293,
+        "4": 275,
+        "5": 268,
+        "6": 273,
+        "7": 275
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8156782501775898
+    },
+    {
+      "layer_idx": 8,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 384,
+      "total_hits": 1139626,
+      "total_candidates": 1393562,
+      "hit_rate": 0.8177791874347894,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 138899,
+          "candidate_tokens": 170656,
+          "hit_rate": 0.8139121976373523
+        },
+        "1": {
+          "hit_tokens": 152989,
+          "candidate_tokens": 185119,
+          "hit_rate": 0.8264359682150401
+        },
+        "2": {
+          "hit_tokens": 142734,
+          "candidate_tokens": 172197,
+          "hit_rate": 0.8288994581787139
+        },
+        "3": {
+          "hit_tokens": 142620,
+          "candidate_tokens": 176018,
+          "hit_rate": 0.8102580417911804
+        },
+        "4": {
+          "hit_tokens": 158558,
+          "candidate_tokens": 188157,
+          "hit_rate": 0.8426898813225125
+        },
+        "5": {
+          "hit_tokens": 148750,
+          "candidate_tokens": 181690,
+          "hit_rate": 0.8187021850404536
+        },
+        "6": {
+          "hit_tokens": 127279,
+          "candidate_tokens": 159978,
+          "hit_rate": 0.795603145432497
+        },
+        "7": {
+          "hit_tokens": 127797,
+          "candidate_tokens": 159747,
+          "hit_rate": 0.7999962440609213
+        }
+      },
+      "rebuild_events": 2210,
+      "rebuild_events_per_group": {
+        "0": 272,
+        "1": 280,
+        "2": 268,
+        "3": 276,
+        "4": 333,
+        "5": 276,
+        "6": 256,
+        "7": 249
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8177791874347894
+    },
+    {
+      "layer_idx": 9,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 396,
+      "total_hits": 1131102,
+      "total_candidates": 1382473,
+      "hit_rate": 0.8181729408096939,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 131240,
+          "candidate_tokens": 163843,
+          "hit_rate": 0.8010107236805967
+        },
+        "1": {
+          "hit_tokens": 156287,
+          "candidate_tokens": 181910,
+          "hit_rate": 0.8591446319608598
+        },
+        "2": {
+          "hit_tokens": 148169,
+          "candidate_tokens": 182000,
+          "hit_rate": 0.8141153846153846
+        },
+        "3": {
+          "hit_tokens": 126176,
+          "candidate_tokens": 156959,
+          "hit_rate": 0.8038787199204888
+        },
+        "4": {
+          "hit_tokens": 142012,
+          "candidate_tokens": 174341,
+          "hit_rate": 0.8145645602583442
+        },
+        "5": {
+          "hit_tokens": 126388,
+          "candidate_tokens": 159590,
+          "hit_rate": 0.791954383106711
+        },
+        "6": {
+          "hit_tokens": 161683,
+          "candidate_tokens": 192335,
+          "hit_rate": 0.8406322302233082
+        },
+        "7": {
+          "hit_tokens": 139147,
+          "candidate_tokens": 171495,
+          "hit_rate": 0.811376424968658
+        }
+      },
+      "rebuild_events": 2307,
+      "rebuild_events_per_group": {
+        "6": 443,
+        "0": 265,
+        "1": 275,
+        "2": 277,
+        "3": 238,
+        "4": 276,
+        "5": 259,
+        "7": 274
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8181729408096939
+    },
+    {
+      "layer_idx": 10,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 387,
+      "total_hits": 1076546,
+      "total_candidates": 1324434,
+      "hit_rate": 0.8128347656432862,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 136603,
+          "candidate_tokens": 168542,
+          "hit_rate": 0.810498273427395
+        },
+        "1": {
+          "hit_tokens": 127681,
+          "candidate_tokens": 157008,
+          "hit_rate": 0.8132133394476715
+        },
+        "2": {
+          "hit_tokens": 137710,
+          "candidate_tokens": 171395,
+          "hit_rate": 0.8034656786954112
+        },
+        "3": {
+          "hit_tokens": 132307,
+          "candidate_tokens": 162681,
+          "hit_rate": 0.8132910419778585
+        },
+        "4": {
+          "hit_tokens": 144729,
+          "candidate_tokens": 177994,
+          "hit_rate": 0.8131116779217277
+        },
+        "5": {
+          "hit_tokens": 138048,
+          "candidate_tokens": 168963,
+          "hit_rate": 0.8170309476039133
+        },
+        "6": {
+          "hit_tokens": 119134,
+          "candidate_tokens": 150867,
+          "hit_rate": 0.7896624178912552
+        },
+        "7": {
+          "hit_tokens": 140334,
+          "candidate_tokens": 166984,
+          "hit_rate": 0.8404038710295597
+        }
+      },
+      "rebuild_events": 2027,
+      "rebuild_events_per_group": {
+        "0": 271,
+        "1": 225,
+        "2": 276,
+        "3": 252,
+        "4": 276,
+        "5": 268,
+        "6": 223,
+        "7": 236
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8128347656432862
+    },
+    {
+      "layer_idx": 11,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 406,
+      "total_hits": 1127019,
+      "total_candidates": 1392270,
+      "hit_rate": 0.8094830744036717,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 136441,
+          "candidate_tokens": 169648,
+          "hit_rate": 0.8042594077147976
+        },
+        "1": {
+          "hit_tokens": 128270,
+          "candidate_tokens": 161330,
+          "hit_rate": 0.7950784107109651
+        },
+        "2": {
+          "hit_tokens": 132440,
+          "candidate_tokens": 165926,
+          "hit_rate": 0.7981871436664537
+        },
+        "3": {
+          "hit_tokens": 143597,
+          "candidate_tokens": 176458,
+          "hit_rate": 0.8137743825726235
+        },
+        "4": {
+          "hit_tokens": 157096,
+          "candidate_tokens": 189934,
+          "hit_rate": 0.8271083639580065
+        },
+        "5": {
+          "hit_tokens": 162573,
+          "candidate_tokens": 193542,
+          "hit_rate": 0.8399882196112471
+        },
+        "6": {
+          "hit_tokens": 130678,
+          "candidate_tokens": 165100,
+          "hit_rate": 0.7915081768625075
+        },
+        "7": {
+          "hit_tokens": 135924,
+          "candidate_tokens": 170332,
+          "hit_rate": 0.7979945048493531
+        }
+      },
+      "rebuild_events": 2503,
+      "rebuild_events_per_group": {
+        "4": 378,
+        "5": 492,
+        "0": 275,
+        "1": 260,
+        "2": 272,
+        "3": 276,
+        "6": 274,
+        "7": 276
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8094830744036717
+    },
+    {
+      "layer_idx": 12,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 421,
+      "total_hits": 1154502,
+      "total_candidates": 1402267,
+      "hit_rate": 0.8233111097957807,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 132802,
+          "candidate_tokens": 164768,
+          "hit_rate": 0.8059938823072441
+        },
+        "1": {
+          "hit_tokens": 146485,
+          "candidate_tokens": 177949,
+          "hit_rate": 0.8231852946630777
+        },
+        "2": {
+          "hit_tokens": 133471,
+          "candidate_tokens": 166150,
+          "hit_rate": 0.8033162804694554
+        },
+        "3": {
+          "hit_tokens": 130383,
+          "candidate_tokens": 163288,
+          "hit_rate": 0.7984848856009015
+        },
+        "4": {
+          "hit_tokens": 133990,
+          "candidate_tokens": 164223,
+          "hit_rate": 0.8159027663603758
+        },
+        "5": {
+          "hit_tokens": 155334,
+          "candidate_tokens": 186882,
+          "hit_rate": 0.8311875943108485
+        },
+        "6": {
+          "hit_tokens": 140538,
+          "candidate_tokens": 172000,
+          "hit_rate": 0.8170813953488372
+        },
+        "7": {
+          "hit_tokens": 181499,
+          "candidate_tokens": 207007,
+          "hit_rate": 0.8767771138174072
+        }
+      },
+      "rebuild_events": 2471,
+      "rebuild_events_per_group": {
+        "7": 553,
+        "0": 265,
+        "1": 276,
+        "2": 271,
+        "3": 266,
+        "4": 256,
+        "5": 310,
+        "6": 274
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8233111097957807
+    },
+    {
+      "layer_idx": 13,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 392,
+      "total_hits": 1104339,
+      "total_candidates": 1365575,
+      "hit_rate": 0.8086988997308826,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 124771,
+          "candidate_tokens": 158419,
+          "hit_rate": 0.7876012347003831
+        },
+        "1": {
+          "hit_tokens": 130981,
+          "candidate_tokens": 164086,
+          "hit_rate": 0.798246041709835
+        },
+        "2": {
+          "hit_tokens": 159039,
+          "candidate_tokens": 191658,
+          "hit_rate": 0.8298062173246095
+        },
+        "3": {
+          "hit_tokens": 148302,
+          "candidate_tokens": 180011,
+          "hit_rate": 0.823849653632278
+        },
+        "4": {
+          "hit_tokens": 138595,
+          "candidate_tokens": 171174,
+          "hit_rate": 0.8096731980324114
+        },
+        "5": {
+          "hit_tokens": 134912,
+          "candidate_tokens": 167781,
+          "hit_rate": 0.8040958153783802
+        },
+        "6": {
+          "hit_tokens": 130606,
+          "candidate_tokens": 163647,
+          "hit_rate": 0.7980959015441774
+        },
+        "7": {
+          "hit_tokens": 137133,
+          "candidate_tokens": 168799,
+          "hit_rate": 0.8124041019200351
+        }
+      },
+      "rebuild_events": 2316,
+      "rebuild_events_per_group": {
+        "0": 260,
+        "1": 268,
+        "2": 421,
+        "3": 280,
+        "4": 275,
+        "5": 274,
+        "6": 268,
+        "7": 270
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8086988997308826
+    },
+    {
+      "layer_idx": 14,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 437,
+      "total_hits": 1271862,
+      "total_candidates": 1514813,
+      "hit_rate": 0.8396165071200208,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 171342,
+          "candidate_tokens": 200820,
+          "hit_rate": 0.8532118314908873
+        },
+        "1": {
+          "hit_tokens": 162128,
+          "candidate_tokens": 193332,
+          "hit_rate": 0.8385988868888751
+        },
+        "2": {
+          "hit_tokens": 147182,
+          "candidate_tokens": 180290,
+          "hit_rate": 0.8163625270397693
+        },
+        "3": {
+          "hit_tokens": 168206,
+          "candidate_tokens": 198680,
+          "hit_rate": 0.8466176766659955
+        },
+        "4": {
+          "hit_tokens": 151416,
+          "candidate_tokens": 178158,
+          "hit_rate": 0.849897282187721
+        },
+        "5": {
+          "hit_tokens": 138221,
+          "candidate_tokens": 171616,
+          "hit_rate": 0.8054085866119709
+        },
+        "6": {
+          "hit_tokens": 149669,
+          "candidate_tokens": 181028,
+          "hit_rate": 0.8267726539540845
+        },
+        "7": {
+          "hit_tokens": 183698,
+          "candidate_tokens": 210889,
+          "hit_rate": 0.8710648729900564
+        }
+      },
+      "rebuild_events": 3227,
+      "rebuild_events_per_group": {
+        "0": 552,
+        "1": 475,
+        "3": 549,
+        "7": 553,
+        "2": 276,
+        "4": 270,
+        "5": 275,
+        "6": 277
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8396165071200208
+    },
+    {
+      "layer_idx": 15,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 417,
+      "total_hits": 1259557,
+      "total_candidates": 1501317,
+      "hit_rate": 0.8389680527163816,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 153093,
+          "candidate_tokens": 184894,
+          "hit_rate": 0.8280041537313272
+        },
+        "1": {
+          "hit_tokens": 157781,
+          "candidate_tokens": 189513,
+          "hit_rate": 0.8325602992934522
+        },
+        "2": {
+          "hit_tokens": 176297,
+          "candidate_tokens": 203226,
+          "hit_rate": 0.8674923484199857
+        },
+        "3": {
+          "hit_tokens": 154095,
+          "candidate_tokens": 186153,
+          "hit_rate": 0.8277868205186056
+        },
+        "4": {
+          "hit_tokens": 162889,
+          "candidate_tokens": 191900,
+          "hit_rate": 0.8488223032829598
+        },
+        "5": {
+          "hit_tokens": 169032,
+          "candidate_tokens": 197840,
+          "hit_rate": 0.8543873837444399
+        },
+        "6": {
+          "hit_tokens": 137639,
+          "candidate_tokens": 167147,
+          "hit_rate": 0.8234607860147056
+        },
+        "7": {
+          "hit_tokens": 148731,
+          "candidate_tokens": 180644,
+          "hit_rate": 0.8233376143132348
+        }
+      },
+      "rebuild_events": 3009,
+      "rebuild_events_per_group": {
+        "1": 357,
+        "2": 553,
+        "5": 539,
+        "0": 293,
+        "3": 301,
+        "4": 432,
+        "6": 257,
+        "7": 277
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8389680527163816
+    },
+    {
+      "layer_idx": 16,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 430,
+      "total_hits": 1266971,
+      "total_candidates": 1515944,
+      "hit_rate": 0.8357637221427704,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 169294,
+          "candidate_tokens": 199467,
+          "hit_rate": 0.8487318704347085
+        },
+        "1": {
+          "hit_tokens": 190709,
+          "candidate_tokens": 216947,
+          "hit_rate": 0.8790580187787801
+        },
+        "2": {
+          "hit_tokens": 150715,
+          "candidate_tokens": 182756,
+          "hit_rate": 0.8246788067149642
+        },
+        "3": {
+          "hit_tokens": 154256,
+          "candidate_tokens": 185904,
+          "hit_rate": 0.8297615973835958
+        },
+        "4": {
+          "hit_tokens": 166624,
+          "candidate_tokens": 197389,
+          "hit_rate": 0.8441402509764981
+        },
+        "5": {
+          "hit_tokens": 138768,
+          "candidate_tokens": 169848,
+          "hit_rate": 0.8170128585558852
+        },
+        "6": {
+          "hit_tokens": 146232,
+          "candidate_tokens": 180031,
+          "hit_rate": 0.8122601107587026
+        },
+        "7": {
+          "hit_tokens": 150373,
+          "candidate_tokens": 183602,
+          "hit_rate": 0.8190161327218658
+        }
+      },
+      "rebuild_events": 3050,
+      "rebuild_events_per_group": {
+        "0": 545,
+        "1": 553,
+        "2": 284,
+        "3": 300,
+        "4": 536,
+        "5": 272,
+        "6": 276,
+        "7": 284
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8357637221427704
+    },
+    {
+      "layer_idx": 17,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 434,
+      "total_hits": 1210401,
+      "total_candidates": 1460574,
+      "hit_rate": 0.8287159705704743,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 150203,
+          "candidate_tokens": 180727,
+          "hit_rate": 0.8311043728939229
+        },
+        "1": {
+          "hit_tokens": 151985,
+          "candidate_tokens": 183837,
+          "hit_rate": 0.8267378166527957
+        },
+        "2": {
+          "hit_tokens": 148568,
+          "candidate_tokens": 181847,
+          "hit_rate": 0.8169945063707402
+        },
+        "3": {
+          "hit_tokens": 138635,
+          "candidate_tokens": 167826,
+          "hit_rate": 0.8260638995149738
+        },
+        "4": {
+          "hit_tokens": 134582,
+          "candidate_tokens": 167054,
+          "hit_rate": 0.8056197397248794
+        },
+        "5": {
+          "hit_tokens": 157097,
+          "candidate_tokens": 188243,
+          "hit_rate": 0.8345436483693949
+        },
+        "6": {
+          "hit_tokens": 184563,
+          "candidate_tokens": 213046,
+          "hit_rate": 0.8663058682162538
+        },
+        "7": {
+          "hit_tokens": 144768,
+          "candidate_tokens": 177994,
+          "hit_rate": 0.8133307864310033
+        }
+      },
+      "rebuild_events": 2532,
+      "rebuild_events_per_group": {
+        "6": 553,
+        "0": 276,
+        "1": 285,
+        "2": 280,
+        "3": 255,
+        "4": 269,
+        "5": 337,
+        "7": 277
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8287159705704743
+    },
+    {
+      "layer_idx": 18,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 425,
+      "total_hits": 1227140,
+      "total_candidates": 1475283,
+      "hit_rate": 0.831799729272282,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 179771,
+          "candidate_tokens": 207716,
+          "hit_rate": 0.8654653469159814
+        },
+        "1": {
+          "hit_tokens": 153149,
+          "candidate_tokens": 184723,
+          "hit_rate": 0.82907380239602
+        },
+        "2": {
+          "hit_tokens": 158951,
+          "candidate_tokens": 190137,
+          "hit_rate": 0.8359814239206467
+        },
+        "3": {
+          "hit_tokens": 142640,
+          "candidate_tokens": 172968,
+          "hit_rate": 0.824661209009759
+        },
+        "4": {
+          "hit_tokens": 142730,
+          "candidate_tokens": 174374,
+          "hit_rate": 0.8185279915583745
+        },
+        "5": {
+          "hit_tokens": 156052,
+          "candidate_tokens": 188422,
+          "hit_rate": 0.8282047743894025
+        },
+        "6": {
+          "hit_tokens": 147636,
+          "candidate_tokens": 178359,
+          "hit_rate": 0.827746286982995
+        },
+        "7": {
+          "hit_tokens": 146211,
+          "candidate_tokens": 178584,
+          "hit_rate": 0.8187239618330869
+        }
+      },
+      "rebuild_events": 2669,
+      "rebuild_events_per_group": {
+        "0": 553,
+        "1": 298,
+        "2": 385,
+        "3": 273,
+        "4": 273,
+        "5": 336,
+        "6": 276,
+        "7": 275
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.831799729272282
+    },
+    {
+      "layer_idx": 19,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 422,
+      "total_hits": 1247458,
+      "total_candidates": 1495930,
+      "hit_rate": 0.8339013189119812,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 166621,
+          "candidate_tokens": 195784,
+          "hit_rate": 0.8510450292158706
+        },
+        "1": {
+          "hit_tokens": 155298,
+          "candidate_tokens": 188585,
+          "hit_rate": 0.8234907336214439
+        },
+        "2": {
+          "hit_tokens": 176447,
+          "candidate_tokens": 205684,
+          "hit_rate": 0.8578547675074386
+        },
+        "3": {
+          "hit_tokens": 146458,
+          "candidate_tokens": 178624,
+          "hit_rate": 0.8199234145467574
+        },
+        "4": {
+          "hit_tokens": 163892,
+          "candidate_tokens": 195966,
+          "hit_rate": 0.8363287509057694
+        },
+        "5": {
+          "hit_tokens": 140213,
+          "candidate_tokens": 171712,
+          "hit_rate": 0.8165591222512113
+        },
+        "6": {
+          "hit_tokens": 142771,
+          "candidate_tokens": 175066,
+          "hit_rate": 0.8155267156386734
+        },
+        "7": {
+          "hit_tokens": 155758,
+          "candidate_tokens": 184509,
+          "hit_rate": 0.8441756228693451
+        }
+      },
+      "rebuild_events": 3033,
+      "rebuild_events_per_group": {
+        "0": 523,
+        "1": 338,
+        "2": 553,
+        "4": 510,
+        "3": 276,
+        "5": 272,
+        "6": 276,
+        "7": 285
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8339013189119812
+    },
+    {
+      "layer_idx": 20,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 421,
+      "total_hits": 1260278,
+      "total_candidates": 1506360,
+      "hit_rate": 0.8366379882630978,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 174114,
+          "candidate_tokens": 203403,
+          "hit_rate": 0.8560050736714798
+        },
+        "1": {
+          "hit_tokens": 149181,
+          "candidate_tokens": 178896,
+          "hit_rate": 0.8338979071639389
+        },
+        "2": {
+          "hit_tokens": 159198,
+          "candidate_tokens": 189950,
+          "hit_rate": 0.8381047644116872
+        },
+        "3": {
+          "hit_tokens": 147801,
+          "candidate_tokens": 179134,
+          "hit_rate": 0.8250862482834079
+        },
+        "4": {
+          "hit_tokens": 155290,
+          "candidate_tokens": 187005,
+          "hit_rate": 0.8304056041282318
+        },
+        "5": {
+          "hit_tokens": 165107,
+          "candidate_tokens": 194900,
+          "hit_rate": 0.8471369933299128
+        },
+        "6": {
+          "hit_tokens": 153344,
+          "candidate_tokens": 184002,
+          "hit_rate": 0.8333822458451539
+        },
+        "7": {
+          "hit_tokens": 156243,
+          "candidate_tokens": 189070,
+          "hit_rate": 0.8263764743216798
+        }
+      },
+      "rebuild_events": 2951,
+      "rebuild_events_per_group": {
+        "0": 550,
+        "5": 504,
+        "1": 275,
+        "2": 384,
+        "3": 276,
+        "4": 316,
+        "6": 283,
+        "7": 363
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8366379882630978
+    },
+    {
+      "layer_idx": 21,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 390,
+      "total_hits": 1170443,
+      "total_candidates": 1429818,
+      "hit_rate": 0.818595793310757,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 150215,
+          "candidate_tokens": 182185,
+          "hit_rate": 0.8245190328512226
+        },
+        "1": {
+          "hit_tokens": 127542,
+          "candidate_tokens": 161655,
+          "hit_rate": 0.7889765240790573
+        },
+        "2": {
+          "hit_tokens": 152520,
+          "candidate_tokens": 185099,
+          "hit_rate": 0.8239914856374156
+        },
+        "3": {
+          "hit_tokens": 157616,
+          "candidate_tokens": 190674,
+          "hit_rate": 0.8266255493669824
+        },
+        "4": {
+          "hit_tokens": 143763,
+          "candidate_tokens": 174678,
+          "hit_rate": 0.8230172088070621
+        },
+        "5": {
+          "hit_tokens": 147904,
+          "candidate_tokens": 179314,
+          "hit_rate": 0.824832416877656
+        },
+        "6": {
+          "hit_tokens": 141468,
+          "candidate_tokens": 172621,
+          "hit_rate": 0.8195294894595675
+        },
+        "7": {
+          "hit_tokens": 149415,
+          "candidate_tokens": 183592,
+          "hit_rate": 0.8138426510959084
+        }
+      },
+      "rebuild_events": 2344,
+      "rebuild_events_per_group": {
+        "3": 393,
+        "0": 283,
+        "1": 261,
+        "2": 304,
+        "4": 274,
+        "5": 275,
+        "6": 274,
+        "7": 280
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.818595793310757
+    },
+    {
+      "layer_idx": 22,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 416,
+      "total_hits": 1214276,
+      "total_candidates": 1469232,
+      "hit_rate": 0.8264698835854378,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 139524,
+          "candidate_tokens": 173046,
+          "hit_rate": 0.806282722513089
+        },
+        "1": {
+          "hit_tokens": 146093,
+          "candidate_tokens": 176403,
+          "hit_rate": 0.828177525325533
+        },
+        "2": {
+          "hit_tokens": 138858,
+          "candidate_tokens": 172422,
+          "hit_rate": 0.8053380659080628
+        },
+        "3": {
+          "hit_tokens": 139648,
+          "candidate_tokens": 170473,
+          "hit_rate": 0.8191795768244825
+        },
+        "4": {
+          "hit_tokens": 157341,
+          "candidate_tokens": 189289,
+          "hit_rate": 0.8312210429554808
+        },
+        "5": {
+          "hit_tokens": 170283,
+          "candidate_tokens": 202083,
+          "hit_rate": 0.8426389156930568
+        },
+        "6": {
+          "hit_tokens": 155094,
+          "candidate_tokens": 186181,
+          "hit_rate": 0.833028074830407
+        },
+        "7": {
+          "hit_tokens": 167435,
+          "candidate_tokens": 199335,
+          "hit_rate": 0.8399678932450397
+        }
+      },
+      "rebuild_events": 2872,
+      "rebuild_events_per_group": {
+        "5": 552,
+        "7": 541,
+        "0": 276,
+        "1": 275,
+        "2": 275,
+        "3": 271,
+        "4": 364,
+        "6": 318
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8264698835854378
+    },
+    {
+      "layer_idx": 23,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 396,
+      "total_hits": 1195452,
+      "total_candidates": 1446628,
+      "hit_rate": 0.8263713961018313,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 168389,
+          "candidate_tokens": 197403,
+          "hit_rate": 0.8530214839693419
+        },
+        "1": {
+          "hit_tokens": 128968,
+          "candidate_tokens": 161638,
+          "hit_rate": 0.7978816862371472
+        },
+        "2": {
+          "hit_tokens": 141177,
+          "candidate_tokens": 174287,
+          "hit_rate": 0.8100259916115373
+        },
+        "3": {
+          "hit_tokens": 143324,
+          "candidate_tokens": 173464,
+          "hit_rate": 0.8262463681224923
+        },
+        "4": {
+          "hit_tokens": 155029,
+          "candidate_tokens": 187684,
+          "hit_rate": 0.8260107414590482
+        },
+        "5": {
+          "hit_tokens": 146887,
+          "candidate_tokens": 180180,
+          "hit_rate": 0.8152236652236652
+        },
+        "6": {
+          "hit_tokens": 154130,
+          "candidate_tokens": 184826,
+          "hit_rate": 0.8339194702044085
+        },
+        "7": {
+          "hit_tokens": 157548,
+          "candidate_tokens": 187146,
+          "hit_rate": 0.8418454041229841
+        }
+      },
+      "rebuild_events": 2542,
+      "rebuild_events_per_group": {
+        "0": 536,
+        "1": 254,
+        "2": 276,
+        "3": 273,
+        "4": 319,
+        "5": 276,
+        "6": 297,
+        "7": 311
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8263713961018313
+    },
+    {
+      "layer_idx": 24,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 417,
+      "total_hits": 1169231,
+      "total_candidates": 1420196,
+      "hit_rate": 0.8232884756751885,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 142715,
+          "candidate_tokens": 174702,
+          "hit_rate": 0.816905358839624
+        },
+        "1": {
+          "hit_tokens": 139690,
+          "candidate_tokens": 169910,
+          "hit_rate": 0.8221411335412866
+        },
+        "2": {
+          "hit_tokens": 169942,
+          "candidate_tokens": 200832,
+          "hit_rate": 0.846189850223072
+        },
+        "3": {
+          "hit_tokens": 127534,
+          "candidate_tokens": 162615,
+          "hit_rate": 0.7842695938259078
+        },
+        "4": {
+          "hit_tokens": 154614,
+          "candidate_tokens": 185537,
+          "hit_rate": 0.8333324350399112
+        },
+        "5": {
+          "hit_tokens": 136457,
+          "candidate_tokens": 166676,
+          "hit_rate": 0.8186961530154311
+        },
+        "6": {
+          "hit_tokens": 148624,
+          "candidate_tokens": 178147,
+          "hit_rate": 0.8342773103111475
+        },
+        "7": {
+          "hit_tokens": 149655,
+          "candidate_tokens": 181777,
+          "hit_rate": 0.8232889749528268
+        }
+      },
+      "rebuild_events": 2471,
+      "rebuild_events_per_group": {
+        "2": 550,
+        "0": 274,
+        "1": 265,
+        "3": 271,
+        "4": 302,
+        "5": 260,
+        "6": 273,
+        "7": 276
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8232884756751885
+    },
+    {
+      "layer_idx": 25,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 421,
+      "total_hits": 1252609,
+      "total_candidates": 1496686,
+      "hit_rate": 0.8369217056884343,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 141311,
+          "candidate_tokens": 174690,
+          "hit_rate": 0.8089243803308719
+        },
+        "1": {
+          "hit_tokens": 151977,
+          "candidate_tokens": 183123,
+          "hit_rate": 0.8299175963696532
+        },
+        "2": {
+          "hit_tokens": 166497,
+          "candidate_tokens": 196561,
+          "hit_rate": 0.8470500251830221
+        },
+        "3": {
+          "hit_tokens": 154739,
+          "candidate_tokens": 185842,
+          "hit_rate": 0.8326374016637789
+        },
+        "4": {
+          "hit_tokens": 148901,
+          "candidate_tokens": 178236,
+          "hit_rate": 0.8354148432415449
+        },
+        "5": {
+          "hit_tokens": 136608,
+          "candidate_tokens": 166145,
+          "hit_rate": 0.8222215534623372
+        },
+        "6": {
+          "hit_tokens": 172262,
+          "candidate_tokens": 203423,
+          "hit_rate": 0.8468167316380154
+        },
+        "7": {
+          "hit_tokens": 180314,
+          "candidate_tokens": 208666,
+          "hit_rate": 0.8641273614292697
+        }
+      },
+      "rebuild_events": 3084,
+      "rebuild_events_per_group": {
+        "2": 536,
+        "3": 336,
+        "6": 553,
+        "7": 553,
+        "0": 274,
+        "1": 304,
+        "4": 276,
+        "5": 252
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8369217056884343
+    },
+    {
+      "layer_idx": 26,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 428,
+      "total_hits": 1269530,
+      "total_candidates": 1509001,
+      "hit_rate": 0.8413049428065322,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 174085,
+          "candidate_tokens": 203421,
+          "hit_rate": 0.8557867673445712
+        },
+        "1": {
+          "hit_tokens": 160325,
+          "candidate_tokens": 191593,
+          "hit_rate": 0.8367998830854989
+        },
+        "2": {
+          "hit_tokens": 162134,
+          "candidate_tokens": 191884,
+          "hit_rate": 0.8449584123741427
+        },
+        "3": {
+          "hit_tokens": 138068,
+          "candidate_tokens": 168939,
+          "hit_rate": 0.8172654034888333
+        },
+        "4": {
+          "hit_tokens": 152063,
+          "candidate_tokens": 182175,
+          "hit_rate": 0.8347083847948401
+        },
+        "5": {
+          "hit_tokens": 171209,
+          "candidate_tokens": 199283,
+          "hit_rate": 0.8591249629923275
+        },
+        "6": {
+          "hit_tokens": 166697,
+          "candidate_tokens": 196138,
+          "hit_rate": 0.8498965014428617
+        },
+        "7": {
+          "hit_tokens": 144949,
+          "candidate_tokens": 175568,
+          "hit_rate": 0.8256003371912877
+        }
+      },
+      "rebuild_events": 3313,
+      "rebuild_events_per_group": {
+        "0": 553,
+        "1": 432,
+        "2": 434,
+        "5": 547,
+        "6": 528,
+        "3": 269,
+        "4": 277,
+        "7": 273
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8413049428065322
+    },
+    {
+      "layer_idx": 27,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 463,
+      "total_hits": 1413196,
+      "total_candidates": 1638988,
+      "hit_rate": 0.8622369413320903,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 173737,
+          "candidate_tokens": 204991,
+          "hit_rate": 0.8475347698191628
+        },
+        "1": {
+          "hit_tokens": 191333,
+          "candidate_tokens": 218170,
+          "hit_rate": 0.8769904203144337
+        },
+        "2": {
+          "hit_tokens": 199150,
+          "candidate_tokens": 224929,
+          "hit_rate": 0.8853905010025386
+        },
+        "3": {
+          "hit_tokens": 188124,
+          "candidate_tokens": 214893,
+          "hit_rate": 0.8754310284653293
+        },
+        "4": {
+          "hit_tokens": 140999,
+          "candidate_tokens": 172383,
+          "hit_rate": 0.8179402841347465
+        },
+        "5": {
+          "hit_tokens": 148990,
+          "candidate_tokens": 178806,
+          "hit_rate": 0.8332494435309777
+        },
+        "6": {
+          "hit_tokens": 197995,
+          "candidate_tokens": 224197,
+          "hit_rate": 0.883129569084332
+        },
+        "7": {
+          "hit_tokens": 172868,
+          "candidate_tokens": 200619,
+          "hit_rate": 0.8616731216883745
+        }
+      },
+      "rebuild_events": 3861,
+      "rebuild_events_per_group": {
+        "0": 553,
+        "1": 553,
+        "2": 553,
+        "3": 553,
+        "6": 553,
+        "7": 552,
+        "4": 269,
+        "5": 275
+      },
+      "head_stats": {},
+      "average_hit_rate": 0.8622369413320903
+    }
+  ],
+  "overall": {
+    "total_hits": 31517249,
+    "total_candidates": 37967380,
+    "hit_rate": 0.8301138767015264
+  }
+}

@@ -1,0 +1,6213 @@
+{
+  "layers": [
+    {
+      "layer_idx": 0,
+      "forward_count": 0,
+      "step_count": 0,
+      "current_cache_size": 0,
+      "total_hits": 0,
+      "total_candidates": 0,
+      "hit_rate": 0.0,
+      "group_stats": {},
+      "rebuild_events": 0,
+      "rebuild_events_per_group": {}
+    },
+    {
+      "layer_idx": 1,
+      "forward_count": 0,
+      "step_count": 0,
+      "current_cache_size": 0,
+      "total_hits": 0,
+      "total_candidates": 0,
+      "hit_rate": 0.0,
+      "group_stats": {},
+      "rebuild_events": 0,
+      "rebuild_events_per_group": {}
+    },
+    {
+      "layer_idx": 2,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 215,
+      "total_hits": 2625647,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7825754306233786,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78310,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7468907370669923
+        },
+        "1": {
+          "hit_tokens": 85160,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8122234091255913
+        },
+        "2": {
+          "hit_tokens": 78452,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7482450785899588
+        },
+        "3": {
+          "hit_tokens": 79031,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7537673584617732
+        },
+        "4": {
+          "hit_tokens": 79779,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.760901495498245
+        },
+        "5": {
+          "hit_tokens": 84164,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8027239432321074
+        },
+        "6": {
+          "hit_tokens": 83743,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7987086067450023
+        },
+        "7": {
+          "hit_tokens": 85520,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8156569510148024
+        },
+        "8": {
+          "hit_tokens": 76448,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.729131695406684
+        },
+        "9": {
+          "hit_tokens": 82894,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7906111704562796
+        },
+        "10": {
+          "hit_tokens": 80226,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7651648100106822
+        },
+        "11": {
+          "hit_tokens": 85045,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8111265832443156
+        },
+        "12": {
+          "hit_tokens": 79751,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7606344422401954
+        },
+        "13": {
+          "hit_tokens": 80788,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.770524950404395
+        },
+        "14": {
+          "hit_tokens": 77785,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7418834884785594
+        },
+        "15": {
+          "hit_tokens": 88667,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8456718296963223
+        },
+        "16": {
+          "hit_tokens": 78156,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7454219441477186
+        },
+        "17": {
+          "hit_tokens": 79356,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.756867083778422
+        },
+        "18": {
+          "hit_tokens": 82705,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7888085609644437
+        },
+        "19": {
+          "hit_tokens": 85193,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8125381504654356
+        },
+        "20": {
+          "hit_tokens": 89497,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8535880512742255
+        },
+        "21": {
+          "hit_tokens": 87065,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8303925682893332
+        },
+        "22": {
+          "hit_tokens": 83586,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7972112009766519
+        },
+        "23": {
+          "hit_tokens": 80393,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7667575919426217
+        },
+        "24": {
+          "hit_tokens": 82551,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7873397680451701
+        },
+        "25": {
+          "hit_tokens": 79779,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.760901495498245
+        },
+        "26": {
+          "hit_tokens": 78821,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7517644590264001
+        },
+        "27": {
+          "hit_tokens": 86474,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8247558370212117
+        },
+        "28": {
+          "hit_tokens": 80217,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7650789714634518
+        },
+        "29": {
+          "hit_tokens": 81064,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7731573325194567
+        },
+        "30": {
+          "hit_tokens": 82868,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7903631924309477
+        },
+        "31": {
+          "hit_tokens": 82159,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7836010224324736
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 3,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 215,
+      "total_hits": 2650763,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7900612672630856,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 80644,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7691515336487105
+        },
+        "1": {
+          "hit_tokens": 81491,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7772298947047154
+        },
+        "2": {
+          "hit_tokens": 83297,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7944548298489241
+        },
+        "3": {
+          "hit_tokens": 82107,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7831050663818099
+        },
+        "4": {
+          "hit_tokens": 83007,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7916889211048375
+        },
+        "5": {
+          "hit_tokens": 83847,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.79970051884633
+        },
+        "6": {
+          "hit_tokens": 79539,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7586124675721044
+        },
+        "7": {
+          "hit_tokens": 78563,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7493037540057988
+        },
+        "8": {
+          "hit_tokens": 90493,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8630875171677095
+        },
+        "9": {
+          "hit_tokens": 84893,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8096768655577598
+        },
+        "10": {
+          "hit_tokens": 79572,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7589272089119488
+        },
+        "11": {
+          "hit_tokens": 81438,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7767244010376927
+        },
+        "12": {
+          "hit_tokens": 86464,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8246604608576225
+        },
+        "13": {
+          "hit_tokens": 81322,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.775618037540058
+        },
+        "14": {
+          "hit_tokens": 78867,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7522031893789104
+        },
+        "15": {
+          "hit_tokens": 82655,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7883316801464978
+        },
+        "16": {
+          "hit_tokens": 79273,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7560754616206318
+        },
+        "17": {
+          "hit_tokens": 80308,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7659468945521135
+        },
+        "18": {
+          "hit_tokens": 93148,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.888409888600641
+        },
+        "19": {
+          "hit_tokens": 77786,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7418930260949184
+        },
+        "20": {
+          "hit_tokens": 84717,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.80799824507859
+        },
+        "21": {
+          "hit_tokens": 88212,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8413322142530139
+        },
+        "22": {
+          "hit_tokens": 85466,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8151419197314207
+        },
+        "23": {
+          "hit_tokens": 84447,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8054230886616817
+        },
+        "24": {
+          "hit_tokens": 83868,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7999008087898672
+        },
+        "25": {
+          "hit_tokens": 87020,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8299633755531818
+        },
+        "26": {
+          "hit_tokens": 83364,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7950938501449718
+        },
+        "27": {
+          "hit_tokens": 81689,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7791183427437814
+        },
+        "28": {
+          "hit_tokens": 79140,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7548069586448954
+        },
+        "29": {
+          "hit_tokens": 76900,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7334426980009157
+        },
+        "30": {
+          "hit_tokens": 84123,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8023329009613918
+        },
+        "31": {
+          "hit_tokens": 83103,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7926045322752937
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 4,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 216,
+      "total_hits": 2610206,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7779732326796887,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78954,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7530329620021364
+        },
+        "1": {
+          "hit_tokens": 81410,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7764573477796429
+        },
+        "2": {
+          "hit_tokens": 80867,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7712784220967496
+        },
+        "3": {
+          "hit_tokens": 76712,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7316496261254387
+        },
+        "4": {
+          "hit_tokens": 80027,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7632668243552572
+        },
+        "5": {
+          "hit_tokens": 78130,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7451739661223867
+        },
+        "6": {
+          "hit_tokens": 82652,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7883030672974211
+        },
+        "7": {
+          "hit_tokens": 77046,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7348351899893178
+        },
+        "8": {
+          "hit_tokens": 86479,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8248035251030063
+        },
+        "9": {
+          "hit_tokens": 80076,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7637341675568442
+        },
+        "10": {
+          "hit_tokens": 78197,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7458129864184343
+        },
+        "11": {
+          "hit_tokens": 81712,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7793377079200366
+        },
+        "12": {
+          "hit_tokens": 81701,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7792327941400885
+        },
+        "13": {
+          "hit_tokens": 82366,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.78557530901877
+        },
+        "14": {
+          "hit_tokens": 83044,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7920418129101175
+        },
+        "15": {
+          "hit_tokens": 82270,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7846596978483138
+        },
+        "16": {
+          "hit_tokens": 88656,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8455669159163742
+        },
+        "17": {
+          "hit_tokens": 79860,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7616740424233176
+        },
+        "18": {
+          "hit_tokens": 78330,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7470814893941706
+        },
+        "19": {
+          "hit_tokens": 80344,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7662902487410347
+        },
+        "20": {
+          "hit_tokens": 79898,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7620364718449565
+        },
+        "21": {
+          "hit_tokens": 86647,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8264058446513047
+        },
+        "22": {
+          "hit_tokens": 78399,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.747739584922936
+        },
+        "23": {
+          "hit_tokens": 79424,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7575156416908286
+        },
+        "24": {
+          "hit_tokens": 82405,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7859472760567678
+        },
+        "25": {
+          "hit_tokens": 79132,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7547306577140241
+        },
+        "26": {
+          "hit_tokens": 85077,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.811431786967801
+        },
+        "27": {
+          "hit_tokens": 89997,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8583568594536853
+        },
+        "28": {
+          "hit_tokens": 77405,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.73825919426217
+        },
+        "29": {
+          "hit_tokens": 86562,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8255951472607966
+        },
+        "30": {
+          "hit_tokens": 86724,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8271402411109415
+        },
+        "31": {
+          "hit_tokens": 79703,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7601766366549672
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 5,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 216,
+      "total_hits": 2597677,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7742389578246605,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 82435,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7862334045475354
+        },
+        "1": {
+          "hit_tokens": 78010,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7440294521593164
+        },
+        "2": {
+          "hit_tokens": 79262,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7559705478406836
+        },
+        "3": {
+          "hit_tokens": 81019,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7727281397833053
+        },
+        "4": {
+          "hit_tokens": 89286,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8515756142224935
+        },
+        "5": {
+          "hit_tokens": 76921,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7336429879444529
+        },
+        "6": {
+          "hit_tokens": 80654,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7692469098122997
+        },
+        "7": {
+          "hit_tokens": 83490,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7962955898061956
+        },
+        "8": {
+          "hit_tokens": 79200,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7553792156264306
+        },
+        "9": {
+          "hit_tokens": 84103,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8021421486342133
+        },
+        "10": {
+          "hit_tokens": 79325,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7565714176712955
+        },
+        "11": {
+          "hit_tokens": 86941,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.829209903860827
+        },
+        "12": {
+          "hit_tokens": 82752,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.789256828933313
+        },
+        "13": {
+          "hit_tokens": 76409,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7287597283686861
+        },
+        "14": {
+          "hit_tokens": 80027,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7632668243552572
+        },
+        "15": {
+          "hit_tokens": 85343,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8139687929192736
+        },
+        "16": {
+          "hit_tokens": 82393,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7858328246604609
+        },
+        "17": {
+          "hit_tokens": 81978,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7818747138715092
+        },
+        "18": {
+          "hit_tokens": 86613,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8260815656951015
+        },
+        "19": {
+          "hit_tokens": 78947,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.752966198687624
+        },
+        "20": {
+          "hit_tokens": 84329,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8042976499313291
+        },
+        "21": {
+          "hit_tokens": 76542,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7300282313444224
+        },
+        "22": {
+          "hit_tokens": 80206,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7649740576835038
+        },
+        "23": {
+          "hit_tokens": 78726,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7508583854723028
+        },
+        "24": {
+          "hit_tokens": 76656,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7311155196093392
+        },
+        "25": {
+          "hit_tokens": 76627,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7308389287349306
+        },
+        "26": {
+          "hit_tokens": 82339,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7853177933770792
+        },
+        "27": {
+          "hit_tokens": 77474,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7389172897909354
+        },
+        "28": {
+          "hit_tokens": 80480,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7675873645658478
+        },
+        "29": {
+          "hit_tokens": 76227,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7270238821913627
+        },
+        "30": {
+          "hit_tokens": 85118,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8118228292385167
+        },
+        "31": {
+          "hit_tokens": 87845,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8378319090492904
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 6,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 216,
+      "total_hits": 2548572,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7596031874713871,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78681,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7504291927361514
+        },
+        "1": {
+          "hit_tokens": 76693,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7314684114146193
+        },
+        "2": {
+          "hit_tokens": 80189,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7648119182054021
+        },
+        "3": {
+          "hit_tokens": 81483,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7771535937738441
+        },
+        "4": {
+          "hit_tokens": 79872,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7617884938196245
+        },
+        "5": {
+          "hit_tokens": 76537,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7299805432626278
+        },
+        "6": {
+          "hit_tokens": 77091,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7352643827254692
+        },
+        "7": {
+          "hit_tokens": 79410,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7573821150618038
+        },
+        "8": {
+          "hit_tokens": 86833,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8281798412940637
+        },
+        "9": {
+          "hit_tokens": 77681,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7408915763772318
+        },
+        "10": {
+          "hit_tokens": 78572,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7493895925530292
+        },
+        "11": {
+          "hit_tokens": 79584,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7590416603082557
+        },
+        "12": {
+          "hit_tokens": 76417,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7288360292995575
+        },
+        "13": {
+          "hit_tokens": 78377,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7475297573630398
+        },
+        "14": {
+          "hit_tokens": 81087,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7733766976957119
+        },
+        "15": {
+          "hit_tokens": 79960,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7626278040592095
+        },
+        "16": {
+          "hit_tokens": 80770,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7703532733099344
+        },
+        "17": {
+          "hit_tokens": 77966,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7436097970395239
+        },
+        "18": {
+          "hit_tokens": 76565,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7302475965206775
+        },
+        "19": {
+          "hit_tokens": 83899,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8001964748969937
+        },
+        "20": {
+          "hit_tokens": 76975,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7341580192278346
+        },
+        "21": {
+          "hit_tokens": 76829,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7327655272394323
+        },
+        "22": {
+          "hit_tokens": 76449,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7291412330230429
+        },
+        "23": {
+          "hit_tokens": 76357,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7282637723180223
+        },
+        "24": {
+          "hit_tokens": 77793,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7419597894094307
+        },
+        "25": {
+          "hit_tokens": 83701,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7983080268579277
+        },
+        "26": {
+          "hit_tokens": 80465,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.767444300320464
+        },
+        "27": {
+          "hit_tokens": 80182,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7647451548908897
+        },
+        "28": {
+          "hit_tokens": 86834,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8281893789104227
+        },
+        "29": {
+          "hit_tokens": 80136,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7643064245383794
+        },
+        "30": {
+          "hit_tokens": 78832,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7518693728063482
+        },
+        "31": {
+          "hit_tokens": 86352,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8235922478254235
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 7,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 217,
+      "total_hits": 2504492,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7464651209369755,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 77404,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7382496566458111
+        },
+        "1": {
+          "hit_tokens": 79667,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7598332824660461
+        },
+        "2": {
+          "hit_tokens": 84100,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8021135357851366
+        },
+        "3": {
+          "hit_tokens": 76376,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7284449870288418
+        },
+        "4": {
+          "hit_tokens": 79589,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7590893483900504
+        },
+        "5": {
+          "hit_tokens": 76461,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.72925568441935
+        },
+        "6": {
+          "hit_tokens": 82727,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.78901838852434
+        },
+        "7": {
+          "hit_tokens": 76984,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7342438577750648
+        },
+        "8": {
+          "hit_tokens": 76524,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7298565542499619
+        },
+        "9": {
+          "hit_tokens": 77642,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7405196093392339
+        },
+        "10": {
+          "hit_tokens": 78228,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7461086525255608
+        },
+        "11": {
+          "hit_tokens": 81042,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7729475049595605
+        },
+        "12": {
+          "hit_tokens": 77167,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7359892415687471
+        },
+        "13": {
+          "hit_tokens": 85049,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8111647337097513
+        },
+        "14": {
+          "hit_tokens": 80618,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7689035556233786
+        },
+        "15": {
+          "hit_tokens": 77170,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7360178544178239
+        },
+        "16": {
+          "hit_tokens": 76434,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7289981687776591
+        },
+        "17": {
+          "hit_tokens": 76835,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7328227529375858
+        },
+        "18": {
+          "hit_tokens": 76679,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7313348847855944
+        },
+        "19": {
+          "hit_tokens": 76123,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7260319700900351
+        },
+        "20": {
+          "hit_tokens": 77199,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7362944452922325
+        },
+        "21": {
+          "hit_tokens": 78620,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7498473981382573
+        },
+        "22": {
+          "hit_tokens": 76141,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7262036471844957
+        },
+        "23": {
+          "hit_tokens": 77240,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7366854875629483
+        },
+        "24": {
+          "hit_tokens": 76592,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7305051121623684
+        },
+        "25": {
+          "hit_tokens": 78644,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7500763009308714
+        },
+        "26": {
+          "hit_tokens": 76932,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7337479017244011
+        },
+        "27": {
+          "hit_tokens": 78995,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7534240042728522
+        },
+        "28": {
+          "hit_tokens": 79071,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.75414886311613
+        },
+        "29": {
+          "hit_tokens": 76737,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7318880665344117
+        },
+        "30": {
+          "hit_tokens": 76201,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7267759041660308
+        },
+        "31": {
+          "hit_tokens": 79301,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7563425148786815
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 8,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 217,
+      "total_hits": 2486023,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7409604260453228,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 76495,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7295799633755532
+        },
+        "1": {
+          "hit_tokens": 76656,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7311155196093392
+        },
+        "2": {
+          "hit_tokens": 75984,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7247062414161453
+        },
+        "3": {
+          "hit_tokens": 77462,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7388028383946285
+        },
+        "4": {
+          "hit_tokens": 76240,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7271478712040287
+        },
+        "5": {
+          "hit_tokens": 80758,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7702388219136274
+        },
+        "6": {
+          "hit_tokens": 75878,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7236952540820998
+        },
+        "7": {
+          "hit_tokens": 76334,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7280444071417671
+        },
+        "8": {
+          "hit_tokens": 80905,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7716408515183886
+        },
+        "9": {
+          "hit_tokens": 78849,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7520315122844499
+        },
+        "10": {
+          "hit_tokens": 79656,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7597283686860979
+        },
+        "11": {
+          "hit_tokens": 80326,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.766118571646574
+        },
+        "12": {
+          "hit_tokens": 78312,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7469098122997101
+        },
+        "13": {
+          "hit_tokens": 76039,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7252308103158859
+        },
+        "14": {
+          "hit_tokens": 75997,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7248302304288112
+        },
+        "15": {
+          "hit_tokens": 79142,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7548260338776133
+        },
+        "16": {
+          "hit_tokens": 75880,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7237143293148176
+        },
+        "17": {
+          "hit_tokens": 77850,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7425034335418892
+        },
+        "18": {
+          "hit_tokens": 76480,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7294368991301694
+        },
+        "19": {
+          "hit_tokens": 80834,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7709636807569052
+        },
+        "20": {
+          "hit_tokens": 77925,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7432187547688082
+        },
+        "21": {
+          "hit_tokens": 76027,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7251163589195788
+        },
+        "22": {
+          "hit_tokens": 77548,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7396230734014955
+        },
+        "23": {
+          "hit_tokens": 78521,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7489031741187242
+        },
+        "24": {
+          "hit_tokens": 77335,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7375915611170456
+        },
+        "25": {
+          "hit_tokens": 77304,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7372958950099191
+        },
+        "26": {
+          "hit_tokens": 78769,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7512685029757363
+        },
+        "27": {
+          "hit_tokens": 76212,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7268808179459789
+        },
+        "28": {
+          "hit_tokens": 77684,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7409201892263085
+        },
+        "29": {
+          "hit_tokens": 76039,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7252308103158859
+        },
+        "30": {
+          "hit_tokens": 77003,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7344250724858843
+        },
+        "31": {
+          "hit_tokens": 79579,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7589939722264611
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 9,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 218,
+      "total_hits": 2481847,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7397157671104837,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 76770,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7322028078742561
+        },
+        "1": {
+          "hit_tokens": 75907,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7239718449565085
+        },
+        "2": {
+          "hit_tokens": 78222,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7460514268274073
+        },
+        "3": {
+          "hit_tokens": 77884,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7428277124980924
+        },
+        "4": {
+          "hit_tokens": 76273,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.727462612543873
+        },
+        "5": {
+          "hit_tokens": 76294,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7276629024874104
+        },
+        "6": {
+          "hit_tokens": 76591,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7304955745460094
+        },
+        "7": {
+          "hit_tokens": 75489,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7199851213184801
+        },
+        "8": {
+          "hit_tokens": 76112,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.725927056310087
+        },
+        "9": {
+          "hit_tokens": 76504,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7296658019227834
+        },
+        "10": {
+          "hit_tokens": 77751,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7415592095223562
+        },
+        "11": {
+          "hit_tokens": 77691,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.740986952540821
+        },
+        "12": {
+          "hit_tokens": 77234,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7366282618647948
+        },
+        "13": {
+          "hit_tokens": 76169,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7264707004425454
+        },
+        "14": {
+          "hit_tokens": 78483,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7485407446970853
+        },
+        "15": {
+          "hit_tokens": 78375,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.747510682130322
+        },
+        "16": {
+          "hit_tokens": 76289,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7276152144056157
+        },
+        "17": {
+          "hit_tokens": 81988,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7819700900350984
+        },
+        "18": {
+          "hit_tokens": 75968,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7245536395544026
+        },
+        "19": {
+          "hit_tokens": 79971,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7627327178391576
+        },
+        "20": {
+          "hit_tokens": 75352,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7186784678773082
+        },
+        "21": {
+          "hit_tokens": 75554,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7206050663818099
+        },
+        "22": {
+          "hit_tokens": 78351,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7472817793377079
+        },
+        "23": {
+          "hit_tokens": 82473,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7865958339691744
+        },
+        "24": {
+          "hit_tokens": 79653,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7596997558370212
+        },
+        "25": {
+          "hit_tokens": 76084,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7256600030520373
+        },
+        "26": {
+          "hit_tokens": 84146,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8025522661376469
+        },
+        "27": {
+          "hit_tokens": 76780,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7322981840378453
+        },
+        "28": {
+          "hit_tokens": 76513,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7297516404700137
+        },
+        "29": {
+          "hit_tokens": 75728,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7222646116282618
+        },
+        "30": {
+          "hit_tokens": 77834,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7423508316801465
+        },
+        "31": {
+          "hit_tokens": 77414,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7383450328094002
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 10,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 218,
+      "total_hits": 2475545,
+      "total_candidates": 3355136,
+      "hit_rate": 0.737837452788799,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78519,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7488840988860064
+        },
+        "1": {
+          "hit_tokens": 76931,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7337383641080422
+        },
+        "2": {
+          "hit_tokens": 81902,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7811498550282313
+        },
+        "3": {
+          "hit_tokens": 75032,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7156264306424538
+        },
+        "4": {
+          "hit_tokens": 75493,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7200232717839158
+        },
+        "5": {
+          "hit_tokens": 75248,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7176865557759805
+        },
+        "6": {
+          "hit_tokens": 75886,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7237715550129712
+        },
+        "7": {
+          "hit_tokens": 75122,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7164848161147566
+        },
+        "8": {
+          "hit_tokens": 79451,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7577731573325195
+        },
+        "9": {
+          "hit_tokens": 75312,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7182969632229513
+        },
+        "10": {
+          "hit_tokens": 75316,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.718335113688387
+        },
+        "11": {
+          "hit_tokens": 77187,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7361799938959255
+        },
+        "12": {
+          "hit_tokens": 75457,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7196799175949946
+        },
+        "13": {
+          "hit_tokens": 77530,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7394513963070349
+        },
+        "14": {
+          "hit_tokens": 76776,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7322600335724095
+        },
+        "15": {
+          "hit_tokens": 75111,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7163799023348085
+        },
+        "16": {
+          "hit_tokens": 78555,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7492274530749276
+        },
+        "17": {
+          "hit_tokens": 85517,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8156283381657257
+        },
+        "18": {
+          "hit_tokens": 79809,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7611876239890126
+        },
+        "19": {
+          "hit_tokens": 78372,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7474820692812453
+        },
+        "20": {
+          "hit_tokens": 77729,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7413493819624599
+        },
+        "21": {
+          "hit_tokens": 76013,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7249828322905539
+        },
+        "22": {
+          "hit_tokens": 75397,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7191076606134594
+        },
+        "23": {
+          "hit_tokens": 79364,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7569433847092935
+        },
+        "24": {
+          "hit_tokens": 77055,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7349210285365482
+        },
+        "25": {
+          "hit_tokens": 77385,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7380684419349917
+        },
+        "26": {
+          "hit_tokens": 75702,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.72201663360293
+        },
+        "27": {
+          "hit_tokens": 76944,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.733862353120708
+        },
+        "28": {
+          "hit_tokens": 75652,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.721539752784984
+        },
+        "29": {
+          "hit_tokens": 75827,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7232088356477949
+        },
+        "30": {
+          "hit_tokens": 76565,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7302475965206775
+        },
+        "31": {
+          "hit_tokens": 83386,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.795303677704868
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 11,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 219,
+      "total_hits": 2473453,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7372139311193346,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78817,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7517263085609645
+        },
+        "1": {
+          "hit_tokens": 77274,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7370097665191515
+        },
+        "2": {
+          "hit_tokens": 77994,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7438768502975737
+        },
+        "3": {
+          "hit_tokens": 75160,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7168472455363956
+        },
+        "4": {
+          "hit_tokens": 76118,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7259842820082405
+        },
+        "5": {
+          "hit_tokens": 76162,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.726403937128033
+        },
+        "6": {
+          "hit_tokens": 85345,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8139878681519914
+        },
+        "7": {
+          "hit_tokens": 76542,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7300282313444224
+        },
+        "8": {
+          "hit_tokens": 76045,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7252880360140394
+        },
+        "9": {
+          "hit_tokens": 78023,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7441534411719823
+        },
+        "10": {
+          "hit_tokens": 77749,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7415401342896384
+        },
+        "11": {
+          "hit_tokens": 75095,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7162273004730658
+        },
+        "12": {
+          "hit_tokens": 82800,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7897146345185412
+        },
+        "13": {
+          "hit_tokens": 79234,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7557034945826339
+        },
+        "14": {
+          "hit_tokens": 75029,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7155978177933771
+        },
+        "15": {
+          "hit_tokens": 75952,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7244010376926598
+        },
+        "16": {
+          "hit_tokens": 75720,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7221883106973905
+        },
+        "17": {
+          "hit_tokens": 75748,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7224553639554403
+        },
+        "18": {
+          "hit_tokens": 76664,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7311918205402106
+        },
+        "19": {
+          "hit_tokens": 75018,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7154929040134289
+        },
+        "20": {
+          "hit_tokens": 75104,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.716313139020296
+        },
+        "21": {
+          "hit_tokens": 75383,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7189741339844347
+        },
+        "22": {
+          "hit_tokens": 80027,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7632668243552572
+        },
+        "23": {
+          "hit_tokens": 76030,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7251449717686556
+        },
+        "24": {
+          "hit_tokens": 75273,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7179249961849534
+        },
+        "25": {
+          "hit_tokens": 75881,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7237238669311765
+        },
+        "26": {
+          "hit_tokens": 77348,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7377155501297116
+        },
+        "27": {
+          "hit_tokens": 77566,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.739794750495956
+        },
+        "28": {
+          "hit_tokens": 80871,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7713165725621852
+        },
+        "29": {
+          "hit_tokens": 79871,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7617789562032656
+        },
+        "30": {
+          "hit_tokens": 75213,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7173527392034182
+        },
+        "31": {
+          "hit_tokens": 78397,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7477205096902182
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 12,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 218,
+      "total_hits": 2493666,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7432384261025484,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 75379,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7189359835189989
+        },
+        "1": {
+          "hit_tokens": 77934,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7433045933160385
+        },
+        "2": {
+          "hit_tokens": 75808,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7230276209369755
+        },
+        "3": {
+          "hit_tokens": 76207,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7268331298641844
+        },
+        "4": {
+          "hit_tokens": 82870,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7903822676636655
+        },
+        "5": {
+          "hit_tokens": 77514,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7392987944452922
+        },
+        "6": {
+          "hit_tokens": 80344,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7662902487410347
+        },
+        "7": {
+          "hit_tokens": 75417,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7192984129406379
+        },
+        "8": {
+          "hit_tokens": 80149,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7644304135510454
+        },
+        "9": {
+          "hit_tokens": 75847,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7233995879749733
+        },
+        "10": {
+          "hit_tokens": 77328,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7375247978025332
+        },
+        "11": {
+          "hit_tokens": 76461,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.72925568441935
+        },
+        "12": {
+          "hit_tokens": 78757,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7511540515794293
+        },
+        "13": {
+          "hit_tokens": 81815,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7803200824050054
+        },
+        "14": {
+          "hit_tokens": 75016,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7154738287807111
+        },
+        "15": {
+          "hit_tokens": 79706,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.760205249504044
+        },
+        "16": {
+          "hit_tokens": 80104,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.764001220814894
+        },
+        "17": {
+          "hit_tokens": 75770,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7226651915153365
+        },
+        "18": {
+          "hit_tokens": 78820,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7517549214100412
+        },
+        "19": {
+          "hit_tokens": 80195,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7648691439035556
+        },
+        "20": {
+          "hit_tokens": 76613,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7307054021059057
+        },
+        "21": {
+          "hit_tokens": 79425,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7575251793071875
+        },
+        "22": {
+          "hit_tokens": 76021,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7250591332214253
+        },
+        "23": {
+          "hit_tokens": 82639,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7881790782847551
+        },
+        "24": {
+          "hit_tokens": 80853,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7711448954677247
+        },
+        "25": {
+          "hit_tokens": 76027,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7251163589195788
+        },
+        "26": {
+          "hit_tokens": 75891,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7238192430947658
+        },
+        "27": {
+          "hit_tokens": 81252,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7749504043949336
+        },
+        "28": {
+          "hit_tokens": 75374,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7188882954372043
+        },
+        "29": {
+          "hit_tokens": 75751,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.722483976804517
+        },
+        "30": {
+          "hit_tokens": 76627,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7308389287349306
+        },
+        "31": {
+          "hit_tokens": 75752,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.722493514420876
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 13,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 219,
+      "total_hits": 2464689,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7346018164390355,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78014,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.744067602624752
+        },
+        "1": {
+          "hit_tokens": 76833,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.732803677704868
+        },
+        "2": {
+          "hit_tokens": 79959,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7626182664428506
+        },
+        "3": {
+          "hit_tokens": 75169,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7169330840836258
+        },
+        "4": {
+          "hit_tokens": 75613,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7211677857469861
+        },
+        "5": {
+          "hit_tokens": 76409,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7287597283686861
+        },
+        "6": {
+          "hit_tokens": 77263,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7369048527392034
+        },
+        "7": {
+          "hit_tokens": 77516,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.73931786967801
+        },
+        "8": {
+          "hit_tokens": 75494,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7200328094002747
+        },
+        "9": {
+          "hit_tokens": 78856,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7520982755989624
+        },
+        "10": {
+          "hit_tokens": 75038,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7156836563406074
+        },
+        "11": {
+          "hit_tokens": 75638,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7214062261559591
+        },
+        "12": {
+          "hit_tokens": 75120,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7164657408820387
+        },
+        "13": {
+          "hit_tokens": 75433,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7194510148023806
+        },
+        "14": {
+          "hit_tokens": 76492,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7295513505264765
+        },
+        "15": {
+          "hit_tokens": 74721,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7126602319548299
+        },
+        "16": {
+          "hit_tokens": 75555,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7206146039981688
+        },
+        "17": {
+          "hit_tokens": 75322,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7183923393865406
+        },
+        "18": {
+          "hit_tokens": 78435,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7480829391118572
+        },
+        "19": {
+          "hit_tokens": 79335,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7566667938348848
+        },
+        "20": {
+          "hit_tokens": 75509,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7201758736456585
+        },
+        "21": {
+          "hit_tokens": 80009,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7630951472607966
+        },
+        "22": {
+          "hit_tokens": 76097,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7257839920647032
+        },
+        "23": {
+          "hit_tokens": 77732,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7413779948115367
+        },
+        "24": {
+          "hit_tokens": 76708,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7316114756600031
+        },
+        "25": {
+          "hit_tokens": 75444,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7195559285823288
+        },
+        "26": {
+          "hit_tokens": 76636,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7309247672821608
+        },
+        "27": {
+          "hit_tokens": 75536,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7204333892873493
+        },
+        "28": {
+          "hit_tokens": 84450,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8054517015107584
+        },
+        "29": {
+          "hit_tokens": 78016,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7440866778574698
+        },
+        "30": {
+          "hit_tokens": 80815,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7707824660460858
+        },
+        "31": {
+          "hit_tokens": 75522,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7202998626583245
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 14,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 218,
+      "total_hits": 2479313,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7389605071150618,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 75373,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7188787578208454
+        },
+        "1": {
+          "hit_tokens": 79937,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7624084388829544
+        },
+        "2": {
+          "hit_tokens": 75646,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7214825270868305
+        },
+        "3": {
+          "hit_tokens": 81554,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7778307645353273
+        },
+        "4": {
+          "hit_tokens": 75408,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7192125743934076
+        },
+        "5": {
+          "hit_tokens": 75397,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7191076606134594
+        },
+        "6": {
+          "hit_tokens": 83797,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7992236380283839
+        },
+        "7": {
+          "hit_tokens": 75957,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7244487257744544
+        },
+        "8": {
+          "hit_tokens": 76678,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7313253471692355
+        },
+        "9": {
+          "hit_tokens": 76916,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7335952998626584
+        },
+        "10": {
+          "hit_tokens": 78325,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.747033801312376
+        },
+        "11": {
+          "hit_tokens": 76012,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.724973294674195
+        },
+        "12": {
+          "hit_tokens": 75404,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7191744239279719
+        },
+        "13": {
+          "hit_tokens": 76005,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7249065313596826
+        },
+        "14": {
+          "hit_tokens": 76079,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7256123149702426
+        },
+        "15": {
+          "hit_tokens": 78503,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7487314970242637
+        },
+        "16": {
+          "hit_tokens": 75579,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7208435067907828
+        },
+        "17": {
+          "hit_tokens": 82987,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7914981687776591
+        },
+        "18": {
+          "hit_tokens": 76797,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7324603235159469
+        },
+        "19": {
+          "hit_tokens": 77981,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7437528612849077
+        },
+        "20": {
+          "hit_tokens": 81134,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7738249656645811
+        },
+        "21": {
+          "hit_tokens": 82615,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.787950175492141
+        },
+        "22": {
+          "hit_tokens": 75639,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.721415763772318
+        },
+        "23": {
+          "hit_tokens": 75778,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7227414924462079
+        },
+        "24": {
+          "hit_tokens": 78969,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7531760262475202
+        },
+        "25": {
+          "hit_tokens": 75418,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7193079505569968
+        },
+        "26": {
+          "hit_tokens": 76758,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.732088356477949
+        },
+        "27": {
+          "hit_tokens": 75560,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7206622920799634
+        },
+        "28": {
+          "hit_tokens": 76106,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7258698306119334
+        },
+        "29": {
+          "hit_tokens": 75281,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7180012971158248
+        },
+        "30": {
+          "hit_tokens": 79009,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.753557530901877
+        },
+        "31": {
+          "hit_tokens": 76711,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7316400885090798
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 15,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 222,
+      "total_hits": 2485156,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7407020162520983,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 79230,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7556653441171982
+        },
+        "1": {
+          "hit_tokens": 81578,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7780596673279414
+        },
+        "2": {
+          "hit_tokens": 75692,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7219212574393408
+        },
+        "3": {
+          "hit_tokens": 77817,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7421886922020449
+        },
+        "4": {
+          "hit_tokens": 76273,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.727462612543873
+        },
+        "5": {
+          "hit_tokens": 83860,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7998245078589958
+        },
+        "6": {
+          "hit_tokens": 75761,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7225793529681062
+        },
+        "7": {
+          "hit_tokens": 83488,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7962765145734778
+        },
+        "8": {
+          "hit_tokens": 75836,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7232946741950251
+        },
+        "9": {
+          "hit_tokens": 75680,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7218068060430337
+        },
+        "10": {
+          "hit_tokens": 76050,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.725335724095834
+        },
+        "11": {
+          "hit_tokens": 76242,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7271669464367465
+        },
+        "12": {
+          "hit_tokens": 78435,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7480829391118572
+        },
+        "13": {
+          "hit_tokens": 78153,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7453933312986418
+        },
+        "14": {
+          "hit_tokens": 76718,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7317068518235923
+        },
+        "15": {
+          "hit_tokens": 76601,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7305909507095987
+        },
+        "16": {
+          "hit_tokens": 76367,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7283591484816114
+        },
+        "17": {
+          "hit_tokens": 76653,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7310869067602624
+        },
+        "18": {
+          "hit_tokens": 79040,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7538531970090036
+        },
+        "19": {
+          "hit_tokens": 80328,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.766137646879292
+        },
+        "20": {
+          "hit_tokens": 75808,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7230276209369755
+        },
+        "21": {
+          "hit_tokens": 75734,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7223218373264154
+        },
+        "22": {
+          "hit_tokens": 76355,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7282446970853045
+        },
+        "23": {
+          "hit_tokens": 76001,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7248683808942469
+        },
+        "24": {
+          "hit_tokens": 75422,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7193461010224325
+        },
+        "25": {
+          "hit_tokens": 78005,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7439817640775217
+        },
+        "26": {
+          "hit_tokens": 78535,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7490367007477491
+        },
+        "27": {
+          "hit_tokens": 77448,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7386693117656036
+        },
+        "28": {
+          "hit_tokens": 75405,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7191839615443308
+        },
+        "29": {
+          "hit_tokens": 81661,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7788512894857317
+        },
+        "30": {
+          "hit_tokens": 79049,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7539390355562338
+        },
+        "31": {
+          "hit_tokens": 75931,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7242007477491226
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 16,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 218,
+      "total_hits": 2492979,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7430336654013429,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 75868,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7235998779185107
+        },
+        "1": {
+          "hit_tokens": 76990,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7343010834732183
+        },
+        "2": {
+          "hit_tokens": 77668,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7407675873645658
+        },
+        "3": {
+          "hit_tokens": 76361,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.728301922783458
+        },
+        "4": {
+          "hit_tokens": 85064,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8113077979551351
+        },
+        "5": {
+          "hit_tokens": 80212,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7650312833816573
+        },
+        "6": {
+          "hit_tokens": 76817,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7326510758431253
+        },
+        "7": {
+          "hit_tokens": 81476,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7770868304593316
+        },
+        "8": {
+          "hit_tokens": 76205,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7268140546314665
+        },
+        "9": {
+          "hit_tokens": 78685,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.750467343201587
+        },
+        "10": {
+          "hit_tokens": 76498,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7296085762246299
+        },
+        "11": {
+          "hit_tokens": 75308,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7182588127575157
+        },
+        "12": {
+          "hit_tokens": 81350,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7758850907981077
+        },
+        "13": {
+          "hit_tokens": 77699,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7410632534716923
+        },
+        "14": {
+          "hit_tokens": 75862,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7235426522203571
+        },
+        "15": {
+          "hit_tokens": 77111,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7354551350526476
+        },
+        "16": {
+          "hit_tokens": 77103,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7353788341217763
+        },
+        "17": {
+          "hit_tokens": 78180,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7456508469403327
+        },
+        "18": {
+          "hit_tokens": 77753,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.741578284755074
+        },
+        "19": {
+          "hit_tokens": 76101,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7258221425301389
+        },
+        "20": {
+          "hit_tokens": 75839,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.723323287044102
+        },
+        "21": {
+          "hit_tokens": 84173,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8028097817793377
+        },
+        "22": {
+          "hit_tokens": 76604,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7306195635586754
+        },
+        "23": {
+          "hit_tokens": 79192,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7553029146955593
+        },
+        "24": {
+          "hit_tokens": 75621,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7212440866778574
+        },
+        "25": {
+          "hit_tokens": 75635,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7213776133068823
+        },
+        "26": {
+          "hit_tokens": 76865,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7331088814283534
+        },
+        "27": {
+          "hit_tokens": 75489,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7199851213184801
+        },
+        "28": {
+          "hit_tokens": 83678,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7980886616816725
+        },
+        "29": {
+          "hit_tokens": 78296,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7467572104379674
+        },
+        "30": {
+          "hit_tokens": 76506,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7296848771555013
+        },
+        "31": {
+          "hit_tokens": 76770,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7322028078742561
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 17,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 220,
+      "total_hits": 2490726,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7423621575995727,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 75676,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7217686555775981
+        },
+        "1": {
+          "hit_tokens": 76527,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7298851670990386
+        },
+        "2": {
+          "hit_tokens": 78697,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7505817945978941
+        },
+        "3": {
+          "hit_tokens": 80835,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7709732183732642
+        },
+        "4": {
+          "hit_tokens": 75969,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7245631771707615
+        },
+        "5": {
+          "hit_tokens": 79103,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7544540668396155
+        },
+        "6": {
+          "hit_tokens": 76081,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7256313902029605
+        },
+        "7": {
+          "hit_tokens": 76123,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7260319700900351
+        },
+        "8": {
+          "hit_tokens": 76869,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7331470318937892
+        },
+        "9": {
+          "hit_tokens": 82598,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7877880360140394
+        },
+        "10": {
+          "hit_tokens": 76369,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7283782237143294
+        },
+        "11": {
+          "hit_tokens": 76365,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7283400732488936
+        },
+        "12": {
+          "hit_tokens": 76083,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7256504654356783
+        },
+        "13": {
+          "hit_tokens": 80052,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7635052647642301
+        },
+        "14": {
+          "hit_tokens": 76367,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7283591484816114
+        },
+        "15": {
+          "hit_tokens": 82198,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7839729894704716
+        },
+        "16": {
+          "hit_tokens": 78766,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7512398901266596
+        },
+        "17": {
+          "hit_tokens": 85511,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8155711124675721
+        },
+        "18": {
+          "hit_tokens": 76755,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7320597436288723
+        },
+        "19": {
+          "hit_tokens": 76121,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7260128948573172
+        },
+        "20": {
+          "hit_tokens": 75690,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7219021822066229
+        },
+        "21": {
+          "hit_tokens": 78364,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7474057683503739
+        },
+        "22": {
+          "hit_tokens": 77280,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7370669922173051
+        },
+        "23": {
+          "hit_tokens": 77858,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7425797344727606
+        },
+        "24": {
+          "hit_tokens": 80846,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7710781321532123
+        },
+        "25": {
+          "hit_tokens": 75658,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7215969784831375
+        },
+        "26": {
+          "hit_tokens": 76180,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7265756142224935
+        },
+        "27": {
+          "hit_tokens": 76316,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7278727300473066
+        },
+        "28": {
+          "hit_tokens": 79545,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7586696932702579
+        },
+        "29": {
+          "hit_tokens": 75685,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7218544941248283
+        },
+        "30": {
+          "hit_tokens": 76955,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7339672669006562
+        },
+        "31": {
+          "hit_tokens": 77284,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7371051426827407
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 18,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 218,
+      "total_hits": 2512755,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7489279123111552,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78390,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7476537463757058
+        },
+        "1": {
+          "hit_tokens": 83264,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7941400885090798
+        },
+        "2": {
+          "hit_tokens": 83617,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7975068670837784
+        },
+        "3": {
+          "hit_tokens": 79500,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7582405005341065
+        },
+        "4": {
+          "hit_tokens": 79709,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7602338623531207
+        },
+        "5": {
+          "hit_tokens": 83192,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7934533801312376
+        },
+        "6": {
+          "hit_tokens": 75601,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7210533343506791
+        },
+        "7": {
+          "hit_tokens": 76312,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7278345795818709
+        },
+        "8": {
+          "hit_tokens": 77278,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7370479169845872
+        },
+        "9": {
+          "hit_tokens": 76664,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7311918205402106
+        },
+        "10": {
+          "hit_tokens": 77399,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7382019685640164
+        },
+        "11": {
+          "hit_tokens": 76080,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7256218525866015
+        },
+        "12": {
+          "hit_tokens": 83719,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7984797039523882
+        },
+        "13": {
+          "hit_tokens": 77684,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7409201892263085
+        },
+        "14": {
+          "hit_tokens": 75587,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7209198077216542
+        },
+        "15": {
+          "hit_tokens": 80369,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7665286891500076
+        },
+        "16": {
+          "hit_tokens": 80114,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7640965969784831
+        },
+        "17": {
+          "hit_tokens": 80363,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7664714634518541
+        },
+        "18": {
+          "hit_tokens": 77324,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7374866473370976
+        },
+        "19": {
+          "hit_tokens": 76768,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7321837326415382
+        },
+        "20": {
+          "hit_tokens": 76479,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7294273615138105
+        },
+        "21": {
+          "hit_tokens": 76355,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7282446970853045
+        },
+        "22": {
+          "hit_tokens": 78202,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7458606745002289
+        },
+        "23": {
+          "hit_tokens": 76284,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7275675263238212
+        },
+        "24": {
+          "hit_tokens": 77011,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7345013734167557
+        },
+        "25": {
+          "hit_tokens": 76912,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7335571493972226
+        },
+        "26": {
+          "hit_tokens": 82150,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7835151838852434
+        },
+        "27": {
+          "hit_tokens": 84428,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8052418739508622
+        },
+        "28": {
+          "hit_tokens": 76129,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7260891957881886
+        },
+        "29": {
+          "hit_tokens": 76866,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7331184190447123
+        },
+        "30": {
+          "hit_tokens": 76103,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7258412177628567
+        },
+        "31": {
+          "hit_tokens": 76902,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7334617732336335
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 19,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 219,
+      "total_hits": 2479876,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7391283095528766,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 75969,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7245631771707615
+        },
+        "1": {
+          "hit_tokens": 77039,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7347684266748055
+        },
+        "2": {
+          "hit_tokens": 76281,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7275389134747444
+        },
+        "3": {
+          "hit_tokens": 78256,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7463757057836106
+        },
+        "4": {
+          "hit_tokens": 75569,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7207481306271937
+        },
+        "5": {
+          "hit_tokens": 76416,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7288264916831986
+        },
+        "6": {
+          "hit_tokens": 75500,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7200900350984282
+        },
+        "7": {
+          "hit_tokens": 78052,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.744430032046391
+        },
+        "8": {
+          "hit_tokens": 78794,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7515069433847092
+        },
+        "9": {
+          "hit_tokens": 76872,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7331756447428659
+        },
+        "10": {
+          "hit_tokens": 75729,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7222741492446207
+        },
+        "11": {
+          "hit_tokens": 77727,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7413303067297421
+        },
+        "12": {
+          "hit_tokens": 79099,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7544159163741798
+        },
+        "13": {
+          "hit_tokens": 77822,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7422363802838394
+        },
+        "14": {
+          "hit_tokens": 78232,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7461468029909964
+        },
+        "15": {
+          "hit_tokens": 76096,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7257744544483443
+        },
+        "16": {
+          "hit_tokens": 79256,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7559133221425302
+        },
+        "17": {
+          "hit_tokens": 84356,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.80455516557302
+        },
+        "18": {
+          "hit_tokens": 76776,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7322600335724095
+        },
+        "19": {
+          "hit_tokens": 78297,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7467667480543263
+        },
+        "20": {
+          "hit_tokens": 79444,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.757706394018007
+        },
+        "21": {
+          "hit_tokens": 78262,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.746432931481764
+        },
+        "22": {
+          "hit_tokens": 77264,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7369143903555624
+        },
+        "23": {
+          "hit_tokens": 79185,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7552361513810468
+        },
+        "24": {
+          "hit_tokens": 78176,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.745612696474897
+        },
+        "25": {
+          "hit_tokens": 76639,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7309533801312376
+        },
+        "26": {
+          "hit_tokens": 77267,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7369430032046391
+        },
+        "27": {
+          "hit_tokens": 76690,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7314397985655425
+        },
+        "28": {
+          "hit_tokens": 76307,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7277868915000762
+        },
+        "29": {
+          "hit_tokens": 75822,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7231611475660003
+        },
+        "30": {
+          "hit_tokens": 76038,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.725221272699527
+        },
+        "31": {
+          "hit_tokens": 76644,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7310010682130322
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 20,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 220,
+      "total_hits": 2502597,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7459003152182206,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 75639,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.721415763772318
+        },
+        "1": {
+          "hit_tokens": 79601,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7592037997863574
+        },
+        "2": {
+          "hit_tokens": 82829,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7899912253929497
+        },
+        "3": {
+          "hit_tokens": 77756,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7416068976041508
+        },
+        "4": {
+          "hit_tokens": 79444,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.757706394018007
+        },
+        "5": {
+          "hit_tokens": 81265,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7750743934075995
+        },
+        "6": {
+          "hit_tokens": 75824,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7231802227987182
+        },
+        "7": {
+          "hit_tokens": 81049,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7730142682740729
+        },
+        "8": {
+          "hit_tokens": 77911,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7430852281397833
+        },
+        "9": {
+          "hit_tokens": 77145,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7357794140088509
+        },
+        "10": {
+          "hit_tokens": 80324,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7660994964138562
+        },
+        "11": {
+          "hit_tokens": 78395,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7477014344575004
+        },
+        "12": {
+          "hit_tokens": 78956,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7530520372348543
+        },
+        "13": {
+          "hit_tokens": 79419,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7574679536090341
+        },
+        "14": {
+          "hit_tokens": 76430,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7289600183122235
+        },
+        "15": {
+          "hit_tokens": 75334,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7185067907828475
+        },
+        "16": {
+          "hit_tokens": 79922,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7622653746375706
+        },
+        "17": {
+          "hit_tokens": 76987,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7342724706241416
+        },
+        "18": {
+          "hit_tokens": 78973,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7532141767129559
+        },
+        "19": {
+          "hit_tokens": 76129,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7260891957881886
+        },
+        "20": {
+          "hit_tokens": 77037,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7347493514420876
+        },
+        "21": {
+          "hit_tokens": 83180,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7933389287349306
+        },
+        "22": {
+          "hit_tokens": 77541,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7395563100869831
+        },
+        "23": {
+          "hit_tokens": 76078,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7256027773538837
+        },
+        "24": {
+          "hit_tokens": 76357,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7282637723180223
+        },
+        "25": {
+          "hit_tokens": 78097,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7448592247825423
+        },
+        "26": {
+          "hit_tokens": 77766,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.74170227376774
+        },
+        "27": {
+          "hit_tokens": 76910,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7335380741645048
+        },
+        "28": {
+          "hit_tokens": 76617,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7307435525713414
+        },
+        "29": {
+          "hit_tokens": 77589,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7400141156722112
+        },
+        "30": {
+          "hit_tokens": 78762,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7512017396612238
+        },
+        "31": {
+          "hit_tokens": 77331,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.73755341065161
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 21,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 219,
+      "total_hits": 2492040,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7427537959713109,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 76495,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7295799633755532
+        },
+        "1": {
+          "hit_tokens": 82775,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7894761941095682
+        },
+        "2": {
+          "hit_tokens": 76432,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7289790935449413
+        },
+        "3": {
+          "hit_tokens": 80011,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7631142224935145
+        },
+        "4": {
+          "hit_tokens": 78133,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7452025789714635
+        },
+        "5": {
+          "hit_tokens": 78003,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7439626888448039
+        },
+        "6": {
+          "hit_tokens": 77465,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7388314512437052
+        },
+        "7": {
+          "hit_tokens": 80540,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7681596215473829
+        },
+        "8": {
+          "hit_tokens": 77359,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7378204639096597
+        },
+        "9": {
+          "hit_tokens": 76526,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7298756294826797
+        },
+        "10": {
+          "hit_tokens": 78753,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7511159011139936
+        },
+        "11": {
+          "hit_tokens": 77961,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7435621089577293
+        },
+        "12": {
+          "hit_tokens": 79923,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7622749122539295
+        },
+        "13": {
+          "hit_tokens": 76410,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.728769265985045
+        },
+        "14": {
+          "hit_tokens": 77668,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7407675873645658
+        },
+        "15": {
+          "hit_tokens": 76369,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7283782237143294
+        },
+        "16": {
+          "hit_tokens": 79927,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7623130627193652
+        },
+        "17": {
+          "hit_tokens": 76607,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7306481764077521
+        },
+        "18": {
+          "hit_tokens": 76735,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7318689913016939
+        },
+        "19": {
+          "hit_tokens": 76546,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7300663818098581
+        },
+        "20": {
+          "hit_tokens": 77377,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7379921410041203
+        },
+        "21": {
+          "hit_tokens": 76489,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7295227376773996
+        },
+        "22": {
+          "hit_tokens": 76123,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7260319700900351
+        },
+        "23": {
+          "hit_tokens": 78667,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7502956661071265
+        },
+        "24": {
+          "hit_tokens": 79158,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.754978635739356
+        },
+        "25": {
+          "hit_tokens": 81197,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7744258354951931
+        },
+        "26": {
+          "hit_tokens": 76886,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7333091713718908
+        },
+        "27": {
+          "hit_tokens": 78225,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7460800396764841
+        },
+        "28": {
+          "hit_tokens": 75716,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7221501602319549
+        },
+        "29": {
+          "hit_tokens": 76775,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7322504959560506
+        },
+        "30": {
+          "hit_tokens": 78130,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7451739661223867
+        },
+        "31": {
+          "hit_tokens": 76659,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.731144132458416
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 22,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 219,
+      "total_hits": 2518631,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7506792571150618,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78942,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7529185106058294
+        },
+        "1": {
+          "hit_tokens": 77222,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7365138104684877
+        },
+        "2": {
+          "hit_tokens": 79517,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7584026400122081
+        },
+        "3": {
+          "hit_tokens": 76041,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7252498855486037
+        },
+        "4": {
+          "hit_tokens": 77346,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7376964748969937
+        },
+        "5": {
+          "hit_tokens": 79949,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7625228902792615
+        },
+        "6": {
+          "hit_tokens": 82437,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7862524797802534
+        },
+        "7": {
+          "hit_tokens": 77268,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.736952540820998
+        },
+        "8": {
+          "hit_tokens": 77587,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7399950404394934
+        },
+        "9": {
+          "hit_tokens": 77567,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.739804288112315
+        },
+        "10": {
+          "hit_tokens": 77690,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7409774149244621
+        },
+        "11": {
+          "hit_tokens": 79629,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7594708530444071
+        },
+        "12": {
+          "hit_tokens": 86304,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8231344422401954
+        },
+        "13": {
+          "hit_tokens": 78319,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7469765756142225
+        },
+        "14": {
+          "hit_tokens": 76064,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7254692507248588
+        },
+        "15": {
+          "hit_tokens": 76167,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7264516252098275
+        },
+        "16": {
+          "hit_tokens": 81577,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7780501297115825
+        },
+        "17": {
+          "hit_tokens": 77655,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7406435983518999
+        },
+        "18": {
+          "hit_tokens": 77773,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7417690370822524
+        },
+        "19": {
+          "hit_tokens": 77379,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7380112162368381
+        },
+        "20": {
+          "hit_tokens": 77702,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7410918663207691
+        },
+        "21": {
+          "hit_tokens": 80431,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7671200213642606
+        },
+        "22": {
+          "hit_tokens": 79686,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7600144971768655
+        },
+        "23": {
+          "hit_tokens": 77690,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7409774149244621
+        },
+        "24": {
+          "hit_tokens": 76552,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7301236075080116
+        },
+        "25": {
+          "hit_tokens": 79086,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7542919273615138
+        },
+        "26": {
+          "hit_tokens": 75929,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7241816725164048
+        },
+        "27": {
+          "hit_tokens": 77183,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7361418434304898
+        },
+        "28": {
+          "hit_tokens": 84506,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8059858080268579
+        },
+        "29": {
+          "hit_tokens": 77651,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7406054478864642
+        },
+        "30": {
+          "hit_tokens": 81698,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7792041812910118
+        },
+        "31": {
+          "hit_tokens": 78084,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7447352357698764
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 23,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 219,
+      "total_hits": 2510062,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7481252622844499,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78375,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.747510682130322
+        },
+        "1": {
+          "hit_tokens": 78167,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7455268579276667
+        },
+        "2": {
+          "hit_tokens": 77731,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7413684571951777
+        },
+        "3": {
+          "hit_tokens": 77589,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7400141156722112
+        },
+        "4": {
+          "hit_tokens": 79527,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7584980161757974
+        },
+        "5": {
+          "hit_tokens": 79781,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7609205707309629
+        },
+        "6": {
+          "hit_tokens": 78540,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7490843888295438
+        },
+        "7": {
+          "hit_tokens": 76640,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7309629177475965
+        },
+        "8": {
+          "hit_tokens": 77573,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7398615138104685
+        },
+        "9": {
+          "hit_tokens": 77570,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7398329009613918
+        },
+        "10": {
+          "hit_tokens": 78273,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7465378452617122
+        },
+        "11": {
+          "hit_tokens": 80178,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.764707004425454
+        },
+        "12": {
+          "hit_tokens": 81452,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7768579276667176
+        },
+        "13": {
+          "hit_tokens": 79778,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7608919578818861
+        },
+        "14": {
+          "hit_tokens": 79557,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.758784144666565
+        },
+        "15": {
+          "hit_tokens": 75982,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7246871661834274
+        },
+        "16": {
+          "hit_tokens": 77307,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7373245078589958
+        },
+        "17": {
+          "hit_tokens": 77879,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7427800244162979
+        },
+        "18": {
+          "hit_tokens": 84411,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8050797344727606
+        },
+        "19": {
+          "hit_tokens": 80626,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7689798565542499
+        },
+        "20": {
+          "hit_tokens": 76078,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7256027773538837
+        },
+        "21": {
+          "hit_tokens": 78180,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7456508469403327
+        },
+        "22": {
+          "hit_tokens": 77780,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7418358003967649
+        },
+        "23": {
+          "hit_tokens": 77517,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.739327407294369
+        },
+        "24": {
+          "hit_tokens": 77502,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7391843430489852
+        },
+        "25": {
+          "hit_tokens": 76188,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7266519151533649
+        },
+        "26": {
+          "hit_tokens": 78203,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7458702121165878
+        },
+        "27": {
+          "hit_tokens": 79761,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7607298184037845
+        },
+        "28": {
+          "hit_tokens": 77361,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7378395391423775
+        },
+        "29": {
+          "hit_tokens": 79268,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7560277735388372
+        },
+        "30": {
+          "hit_tokens": 78347,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7472436288722722
+        },
+        "31": {
+          "hit_tokens": 76941,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7338337402716313
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 24,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 220,
+      "total_hits": 2512753,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7489273162101328,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78692,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7505341065160995
+        },
+        "1": {
+          "hit_tokens": 82443,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7863097054784068
+        },
+        "2": {
+          "hit_tokens": 78339,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7471673279414008
+        },
+        "3": {
+          "hit_tokens": 78888,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7524034793224478
+        },
+        "4": {
+          "hit_tokens": 76648,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7310392186784679
+        },
+        "5": {
+          "hit_tokens": 77763,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7416736609186632
+        },
+        "6": {
+          "hit_tokens": 78178,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7456317717076149
+        },
+        "7": {
+          "hit_tokens": 76316,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7278727300473066
+        },
+        "8": {
+          "hit_tokens": 76971,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7341198687623989
+        },
+        "9": {
+          "hit_tokens": 78927,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7527754463604456
+        },
+        "10": {
+          "hit_tokens": 77594,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7400618037540058
+        },
+        "11": {
+          "hit_tokens": 82172,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7837250114451396
+        },
+        "12": {
+          "hit_tokens": 78787,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7514401800701969
+        },
+        "13": {
+          "hit_tokens": 81518,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7774874103464062
+        },
+        "14": {
+          "hit_tokens": 75718,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7221692354646727
+        },
+        "15": {
+          "hit_tokens": 78151,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.745374256065924
+        },
+        "16": {
+          "hit_tokens": 78138,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.745250267053258
+        },
+        "17": {
+          "hit_tokens": 79128,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7546925072485884
+        },
+        "18": {
+          "hit_tokens": 77382,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7380398290859148
+        },
+        "19": {
+          "hit_tokens": 82129,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7833148939417061
+        },
+        "20": {
+          "hit_tokens": 77439,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7385834732183733
+        },
+        "21": {
+          "hit_tokens": 80228,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7651838852434
+        },
+        "22": {
+          "hit_tokens": 80161,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7645448649473524
+        },
+        "23": {
+          "hit_tokens": 78311,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7469002746833512
+        },
+        "24": {
+          "hit_tokens": 79246,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7558179459789409
+        },
+        "25": {
+          "hit_tokens": 77596,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7400808789867236
+        },
+        "26": {
+          "hit_tokens": 78197,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7458129864184343
+        },
+        "27": {
+          "hit_tokens": 79574,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7589462841446666
+        },
+        "28": {
+          "hit_tokens": 76289,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7276152144056157
+        },
+        "29": {
+          "hit_tokens": 77934,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7433045933160385
+        },
+        "30": {
+          "hit_tokens": 77822,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7422363802838394
+        },
+        "31": {
+          "hit_tokens": 76074,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.725564626888448
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 25,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 220,
+      "total_hits": 2529474,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7539110188081795,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78948,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.752975736303983
+        },
+        "1": {
+          "hit_tokens": 78186,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7457080726384862
+        },
+        "2": {
+          "hit_tokens": 80053,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.763514802380589
+        },
+        "3": {
+          "hit_tokens": 82079,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7828380131237601
+        },
+        "4": {
+          "hit_tokens": 77912,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7430947657561422
+        },
+        "5": {
+          "hit_tokens": 77507,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7392320311307798
+        },
+        "6": {
+          "hit_tokens": 78714,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7507439340759957
+        },
+        "7": {
+          "hit_tokens": 78895,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7524702426369602
+        },
+        "8": {
+          "hit_tokens": 79879,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.761855257134137
+        },
+        "9": {
+          "hit_tokens": 81265,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7750743934075995
+        },
+        "10": {
+          "hit_tokens": 78881,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7523367160079353
+        },
+        "11": {
+          "hit_tokens": 77989,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.743829162215779
+        },
+        "12": {
+          "hit_tokens": 77647,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7405672974210286
+        },
+        "13": {
+          "hit_tokens": 78625,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7498950862200519
+        },
+        "14": {
+          "hit_tokens": 79394,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.757229513200061
+        },
+        "15": {
+          "hit_tokens": 78840,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7519456737372195
+        },
+        "16": {
+          "hit_tokens": 79143,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7548355714939722
+        },
+        "17": {
+          "hit_tokens": 76595,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7305337250114451
+        },
+        "18": {
+          "hit_tokens": 78681,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7504291927361514
+        },
+        "19": {
+          "hit_tokens": 79114,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7545589806195636
+        },
+        "20": {
+          "hit_tokens": 81806,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7802342438577751
+        },
+        "21": {
+          "hit_tokens": 78743,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7510205249504044
+        },
+        "22": {
+          "hit_tokens": 77624,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7403479322447734
+        },
+        "23": {
+          "hit_tokens": 84290,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8039256828933313
+        },
+        "24": {
+          "hit_tokens": 76709,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.731621013276362
+        },
+        "25": {
+          "hit_tokens": 80122,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7641728979093545
+        },
+        "26": {
+          "hit_tokens": 77828,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.742293605981993
+        },
+        "27": {
+          "hit_tokens": 79679,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7599477338623531
+        },
+        "28": {
+          "hit_tokens": 77291,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7371719059972531
+        },
+        "29": {
+          "hit_tokens": 78297,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7467667480543263
+        },
+        "30": {
+          "hit_tokens": 78720,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7508011597741493
+        },
+        "31": {
+          "hit_tokens": 80018,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7631809858080268
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 26,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 219,
+      "total_hits": 2534225,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7553270567869678,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78611,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.749761559591027
+        },
+        "1": {
+          "hit_tokens": 78736,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.750953761635892
+        },
+        "2": {
+          "hit_tokens": 82384,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7857469861132306
+        },
+        "3": {
+          "hit_tokens": 79917,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7622176865557759
+        },
+        "4": {
+          "hit_tokens": 79297,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7563043644132459
+        },
+        "5": {
+          "hit_tokens": 76250,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7272432473676179
+        },
+        "6": {
+          "hit_tokens": 76189,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7266614527697238
+        },
+        "7": {
+          "hit_tokens": 78779,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7513638791393255
+        },
+        "8": {
+          "hit_tokens": 78044,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7443537311155196
+        },
+        "9": {
+          "hit_tokens": 79865,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7617217305051122
+        },
+        "10": {
+          "hit_tokens": 78723,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.750829772623226
+        },
+        "11": {
+          "hit_tokens": 80920,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7717839157637724
+        },
+        "12": {
+          "hit_tokens": 85475,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.815227758278651
+        },
+        "13": {
+          "hit_tokens": 79074,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7541774759652068
+        },
+        "14": {
+          "hit_tokens": 79894,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7619983213795208
+        },
+        "15": {
+          "hit_tokens": 78323,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7470147260796581
+        },
+        "16": {
+          "hit_tokens": 77945,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7434095070959865
+        },
+        "17": {
+          "hit_tokens": 80560,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7683503738745613
+        },
+        "18": {
+          "hit_tokens": 79401,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7572962765145734
+        },
+        "19": {
+          "hit_tokens": 77868,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7426751106363497
+        },
+        "20": {
+          "hit_tokens": 85787,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.8182034945826339
+        },
+        "21": {
+          "hit_tokens": 77570,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7398329009613918
+        },
+        "22": {
+          "hit_tokens": 77747,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7415210590569205
+        },
+        "23": {
+          "hit_tokens": 78723,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.750829772623226
+        },
+        "24": {
+          "hit_tokens": 78753,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7511159011139936
+        },
+        "25": {
+          "hit_tokens": 78164,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.74549824507859
+        },
+        "26": {
+          "hit_tokens": 76259,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7273290859148481
+        },
+        "27": {
+          "hit_tokens": 79469,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.75794483442698
+        },
+        "28": {
+          "hit_tokens": 79186,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7552456889974057
+        },
+        "29": {
+          "hit_tokens": 80312,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7659850450175492
+        },
+        "30": {
+          "hit_tokens": 78040,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.744315580650084
+        },
+        "31": {
+          "hit_tokens": 77960,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7435525713413703
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 27,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 219,
+      "total_hits": 2522764,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7519110998779185,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78361,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7473771555012971
+        },
+        "1": {
+          "hit_tokens": 80648,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7691896841141462
+        },
+        "2": {
+          "hit_tokens": 78234,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7461658782237143
+        },
+        "3": {
+          "hit_tokens": 76140,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7261941095681367
+        },
+        "4": {
+          "hit_tokens": 79724,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7603769265985045
+        },
+        "5": {
+          "hit_tokens": 78807,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7516309323973752
+        },
+        "6": {
+          "hit_tokens": 80102,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7639821455821761
+        },
+        "7": {
+          "hit_tokens": 77044,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7348161147566
+        },
+        "8": {
+          "hit_tokens": 81175,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7742160079352968
+        },
+        "9": {
+          "hit_tokens": 77759,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7416355104532275
+        },
+        "10": {
+          "hit_tokens": 78295,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7467476728216085
+        },
+        "11": {
+          "hit_tokens": 78564,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7493132916221578
+        },
+        "12": {
+          "hit_tokens": 77761,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7416545856859453
+        },
+        "13": {
+          "hit_tokens": 77387,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7380875171677095
+        },
+        "14": {
+          "hit_tokens": 81445,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7767911643522051
+        },
+        "15": {
+          "hit_tokens": 78990,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7533763161910575
+        },
+        "16": {
+          "hit_tokens": 78846,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7520028994353731
+        },
+        "17": {
+          "hit_tokens": 78898,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7524988554860369
+        },
+        "18": {
+          "hit_tokens": 79289,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7562280634823745
+        },
+        "19": {
+          "hit_tokens": 79189,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7552743018464825
+        },
+        "20": {
+          "hit_tokens": 79430,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7575728673889821
+        },
+        "21": {
+          "hit_tokens": 77173,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7360464672669007
+        },
+        "22": {
+          "hit_tokens": 79344,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7567526323821151
+        },
+        "23": {
+          "hit_tokens": 78659,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7502193651762552
+        },
+        "24": {
+          "hit_tokens": 78430,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7480352510300625
+        },
+        "25": {
+          "hit_tokens": 78402,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7477681977720129
+        },
+        "26": {
+          "hit_tokens": 80240,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.765298336639707
+        },
+        "27": {
+          "hit_tokens": 78310,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7468907370669923
+        },
+        "28": {
+          "hit_tokens": 80627,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7689893941706089
+        },
+        "29": {
+          "hit_tokens": 78584,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7495040439493362
+        },
+        "30": {
+          "hit_tokens": 80222,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7651266595452465
+        },
+        "31": {
+          "hit_tokens": 76685,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7313921104837479
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 28,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 219,
+      "total_hits": 2534694,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7554668424767282,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 77678,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7408629635281551
+        },
+        "1": {
+          "hit_tokens": 78280,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7466046085762247
+        },
+        "2": {
+          "hit_tokens": 79996,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7629711582481307
+        },
+        "3": {
+          "hit_tokens": 79482,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.758068823439646
+        },
+        "4": {
+          "hit_tokens": 78876,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7522890279261407
+        },
+        "5": {
+          "hit_tokens": 78318,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7469670379978636
+        },
+        "6": {
+          "hit_tokens": 78121,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7450881275751564
+        },
+        "7": {
+          "hit_tokens": 77143,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7357603387761331
+        },
+        "8": {
+          "hit_tokens": 80318,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7660422707157027
+        },
+        "9": {
+          "hit_tokens": 78307,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7468621242179154
+        },
+        "10": {
+          "hit_tokens": 81018,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7727186021669464
+        },
+        "11": {
+          "hit_tokens": 78731,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7509060735540973
+        },
+        "12": {
+          "hit_tokens": 80506,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7678353425911796
+        },
+        "13": {
+          "hit_tokens": 79284,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7561803754005799
+        },
+        "14": {
+          "hit_tokens": 79054,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7539867236380284
+        },
+        "15": {
+          "hit_tokens": 76270,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7274339996947963
+        },
+        "16": {
+          "hit_tokens": 83342,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7948840225850755
+        },
+        "17": {
+          "hit_tokens": 78037,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7442869678010072
+        },
+        "18": {
+          "hit_tokens": 79663,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7597951320006104
+        },
+        "19": {
+          "hit_tokens": 79801,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7611113230581413
+        },
+        "20": {
+          "hit_tokens": 78782,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7513924919884023
+        },
+        "21": {
+          "hit_tokens": 80223,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7651361971616054
+        },
+        "22": {
+          "hit_tokens": 78273,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7465378452617122
+        },
+        "23": {
+          "hit_tokens": 79867,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.76174080573783
+        },
+        "24": {
+          "hit_tokens": 79419,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7574679536090341
+        },
+        "25": {
+          "hit_tokens": 80109,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7640489088966885
+        },
+        "26": {
+          "hit_tokens": 78764,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7512208148939417
+        },
+        "27": {
+          "hit_tokens": 83588,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7972302762093697
+        },
+        "28": {
+          "hit_tokens": 77237,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7366568747138715
+        },
+        "29": {
+          "hit_tokens": 78602,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7496757210437968
+        },
+        "30": {
+          "hit_tokens": 78095,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7448401495498245
+        },
+        "31": {
+          "hit_tokens": 79510,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7583358766976958
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 29,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 218,
+      "total_hits": 2545002,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7585391471463452,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 82364,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7855562337860522
+        },
+        "1": {
+          "hit_tokens": 79330,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7566191057530902
+        },
+        "2": {
+          "hit_tokens": 79145,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7548546467266901
+        },
+        "3": {
+          "hit_tokens": 78426,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7479971005646269
+        },
+        "4": {
+          "hit_tokens": 80581,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7685506638180986
+        },
+        "5": {
+          "hit_tokens": 80401,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.766833892873493
+        },
+        "6": {
+          "hit_tokens": 78866,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7521936517625515
+        },
+        "7": {
+          "hit_tokens": 81312,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7755226613764687
+        },
+        "8": {
+          "hit_tokens": 78325,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.747033801312376
+        },
+        "9": {
+          "hit_tokens": 79023,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7536910575309019
+        },
+        "10": {
+          "hit_tokens": 76820,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.732679688692202
+        },
+        "11": {
+          "hit_tokens": 76904,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7334808484663513
+        },
+        "12": {
+          "hit_tokens": 79299,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7563234396459637
+        },
+        "13": {
+          "hit_tokens": 80621,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7689321684724554
+        },
+        "14": {
+          "hit_tokens": 79765,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7607679688692202
+        },
+        "15": {
+          "hit_tokens": 80280,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7656798412940637
+        },
+        "16": {
+          "hit_tokens": 78786,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.751430642453838
+        },
+        "17": {
+          "hit_tokens": 79536,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7585838547230276
+        },
+        "18": {
+          "hit_tokens": 80623,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7689512437051732
+        },
+        "19": {
+          "hit_tokens": 80376,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7665954524645201
+        },
+        "20": {
+          "hit_tokens": 82061,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7826663360292996
+        },
+        "21": {
+          "hit_tokens": 79459,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7578494582633908
+        },
+        "22": {
+          "hit_tokens": 78779,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7513638791393255
+        },
+        "23": {
+          "hit_tokens": 78914,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7526514573477796
+        },
+        "24": {
+          "hit_tokens": 78687,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7504864184343049
+        },
+        "25": {
+          "hit_tokens": 79172,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7551121623683809
+        },
+        "26": {
+          "hit_tokens": 78428,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7480161757973447
+        },
+        "27": {
+          "hit_tokens": 81841,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7805680604303372
+        },
+        "28": {
+          "hit_tokens": 81394,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7763047459179002
+        },
+        "29": {
+          "hit_tokens": 79862,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7616931176560354
+        },
+        "30": {
+          "hit_tokens": 78522,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7489127117350831
+        },
+        "31": {
+          "hit_tokens": 77100,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7353502212726996
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 30,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 218,
+      "total_hits": 2550183,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7600833468449565,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 78513,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7488268731878529
+        },
+        "1": {
+          "hit_tokens": 78623,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.749876010987334
+        },
+        "2": {
+          "hit_tokens": 80326,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.766118571646574
+        },
+        "3": {
+          "hit_tokens": 79688,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7600335724095834
+        },
+        "4": {
+          "hit_tokens": 78641,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7500476880817946
+        },
+        "5": {
+          "hit_tokens": 78436,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7480924767282161
+        },
+        "6": {
+          "hit_tokens": 80565,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7683980619563558
+        },
+        "7": {
+          "hit_tokens": 78785,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.751421104837479
+        },
+        "8": {
+          "hit_tokens": 79090,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7543300778269495
+        },
+        "9": {
+          "hit_tokens": 80050,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7634861895315123
+        },
+        "10": {
+          "hit_tokens": 81287,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7752842209674958
+        },
+        "11": {
+          "hit_tokens": 79610,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7592896383335876
+        },
+        "12": {
+          "hit_tokens": 79050,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7539485731725927
+        },
+        "13": {
+          "hit_tokens": 79411,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7573916526781627
+        },
+        "14": {
+          "hit_tokens": 79410,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7573821150618038
+        },
+        "15": {
+          "hit_tokens": 78867,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7522031893789104
+        },
+        "16": {
+          "hit_tokens": 80739,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7700576072028079
+        },
+        "17": {
+          "hit_tokens": 78444,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7481687776590874
+        },
+        "18": {
+          "hit_tokens": 78721,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7508106973905082
+        },
+        "19": {
+          "hit_tokens": 78756,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7511445139630704
+        },
+        "20": {
+          "hit_tokens": 81979,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7818842514878681
+        },
+        "21": {
+          "hit_tokens": 80840,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7710209064550587
+        },
+        "22": {
+          "hit_tokens": 80091,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.763877231802228
+        },
+        "23": {
+          "hit_tokens": 79336,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7566763314512437
+        },
+        "24": {
+          "hit_tokens": 79160,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7549977109720739
+        },
+        "25": {
+          "hit_tokens": 79444,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.757706394018007
+        },
+        "26": {
+          "hit_tokens": 80061,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7635911033114604
+        },
+        "27": {
+          "hit_tokens": 79367,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7569719975583702
+        },
+        "28": {
+          "hit_tokens": 79002,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7534907675873646
+        },
+        "29": {
+          "hit_tokens": 79620,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7593850144971769
+        },
+        "30": {
+          "hit_tokens": 82739,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.789132839920647
+        },
+        "31": {
+          "hit_tokens": 81532,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7776209369754311
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    },
+    {
+      "layer_idx": 31,
+      "forward_count": 554,
+      "step_count": 554,
+      "current_cache_size": 219,
+      "total_hits": 2560883,
+      "total_candidates": 3355136,
+      "hit_rate": 0.7632724873149702,
+      "group_stats": {
+        "0": {
+          "hit_tokens": 79821,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7613020753853197
+        },
+        "1": {
+          "hit_tokens": 79615,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7593373264153823
+        },
+        "2": {
+          "hit_tokens": 80127,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7642205859911491
+        },
+        "3": {
+          "hit_tokens": 79569,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.758898596062872
+        },
+        "4": {
+          "hit_tokens": 83735,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7986323058141309
+        },
+        "5": {
+          "hit_tokens": 80120,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7641538226766367
+        },
+        "6": {
+          "hit_tokens": 79240,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7557607202807874
+        },
+        "7": {
+          "hit_tokens": 80096,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7639249198840226
+        },
+        "8": {
+          "hit_tokens": 79624,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7594231649626125
+        },
+        "9": {
+          "hit_tokens": 79101,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7544349916068976
+        },
+        "10": {
+          "hit_tokens": 80320,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7660613459484206
+        },
+        "11": {
+          "hit_tokens": 79710,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7602433999694796
+        },
+        "12": {
+          "hit_tokens": 82136,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7833816572562186
+        },
+        "13": {
+          "hit_tokens": 81258,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7750076300930872
+        },
+        "14": {
+          "hit_tokens": 81503,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7773443461010224
+        },
+        "15": {
+          "hit_tokens": 79812,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7612162368380895
+        },
+        "16": {
+          "hit_tokens": 79703,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7601766366549672
+        },
+        "17": {
+          "hit_tokens": 80127,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7642205859911491
+        },
+        "18": {
+          "hit_tokens": 79994,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7629520830154128
+        },
+        "19": {
+          "hit_tokens": 79434,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7576110178544179
+        },
+        "20": {
+          "hit_tokens": 78786,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.751430642453838
+        },
+        "21": {
+          "hit_tokens": 79306,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7563902029604761
+        },
+        "22": {
+          "hit_tokens": 78577,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7494372806348237
+        },
+        "23": {
+          "hit_tokens": 79534,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7585647794903098
+        },
+        "24": {
+          "hit_tokens": 78794,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7515069433847092
+        },
+        "25": {
+          "hit_tokens": 78305,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7468430489851976
+        },
+        "26": {
+          "hit_tokens": 78627,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7499141614527697
+        },
+        "27": {
+          "hit_tokens": 78820,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7517549214100412
+        },
+        "28": {
+          "hit_tokens": 82490,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.786757973447276
+        },
+        "29": {
+          "hit_tokens": 78992,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7533953914237753
+        },
+        "30": {
+          "hit_tokens": 80181,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7647356172745308
+        },
+        "31": {
+          "hit_tokens": 83426,
+          "candidate_tokens": 104848,
+          "hit_rate": 0.7956851823592248
+        }
+      },
+      "rebuild_events": 4448,
+      "rebuild_events_per_group": {
+        "0": 139,
+        "1": 139,
+        "2": 139,
+        "3": 139,
+        "4": 139,
+        "5": 139,
+        "6": 139,
+        "7": 139,
+        "8": 139,
+        "9": 139,
+        "10": 139,
+        "11": 139,
+        "12": 139,
+        "13": 139,
+        "14": 139,
+        "15": 139,
+        "16": 139,
+        "17": 139,
+        "18": 139,
+        "19": 139,
+        "20": 139,
+        "21": 139,
+        "22": 139,
+        "23": 139,
+        "24": 139,
+        "25": 139,
+        "26": 139,
+        "27": 139,
+        "28": 139,
+        "29": 139,
+        "30": 139,
+        "31": 139
+      }
+    }
+  ],
+  "overall": {
+    "total_hits": 75666693,
+    "total_candidates": 100654080,
+    "hit_rate": 0.7517498843564017
+  }
+}

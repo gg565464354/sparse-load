@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Debugger: gen_partial_weight with args",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/gen_partial_weight.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--skewing_matrix_path",
+                "/workspace/SparseCache/accuracy/setup/skewing_matrix_qwen2/Qwen2-1.5B-Instruct.pt",
+                "--model",
+                "/root/model/Qwen2-1.5B-Instruct",
+                "--model_type",
+                "qwen2",
+                "--partial_weight_ratio",
+                "0.2",
+                "--output",
+                "./weights_qwen2"
+            ]
+        }
+    ]
+}

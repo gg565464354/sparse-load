@@ -1,0 +1,37 @@
+main:
+  vscode:
+    - docker:
+        image: docker.cnb.cool/aisshina/sparse-load
+        # image: pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel
+      runner:
+        tags: cnb:arch:amd64:gpu:h20
+        # tags: cnb:arch:amd64
+      services:
+        - vscode
+        - docker
+      stages:
+        - name: Main hello
+          script: echo "hello"
+  push:
+    - services:
+        - docker
+      stages:
+        # 同名镜像构建&推送
+        - name: docker build
+          script: docker build -t ${CNB_DOCKER_REGISTRY}/${CNB_REPO_SLUG_LOWERCASE}:latest .
+        - name: docker push
+          script: docker push ${CNB_DOCKER_REGISTRY}/${CNB_REPO_SLUG_LOWERCASE}:latest
+$:
+  vscode:
+    - docker:
+        image: docker.cnb.cool/aisshina/sparse-load
+        # image: pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel
+      runner:
+        tags: cnb:arch:amd64:gpu:h20
+        # tags: cnb:arch:amd64
+      services:
+        - vscode
+        - docker
+      stages:
+        - name: Hello
+          script: echo "hello"

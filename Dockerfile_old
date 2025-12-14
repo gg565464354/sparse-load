@@ -1,0 +1,47 @@
+# 定制化开发环境, AI 通用版
+FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel
+
+# 修改镜像源、设置时区、安装系统包和工具（合并RUN以减少层）
+RUN sed -i 's/archive.ubuntu.com/mirrors.cloud.tencent.com/g' /etc/apt/sources.list && \
+    sed -i 's/security.ubuntu.com/mirrors.cloud.tencent.com/g' /etc/apt/sources.list && \
+    sed -i 's/cn.archive.ubuntu.com/mirrors.cloud.tencent.com/g' /etc/apt/sources.list && \
+    ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
+    echo "Asia/Shanghai" > /etc/timezone && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends \
+    git-lfs curl wget git axel nload libgl1-mesa-glx ffmpeg build-essential gcc g++ \
+    htop unzip openssh-server screen && \
+    git lfs install --force && \
+    apt-get clean && \
+    apt-get -y autoremove && \
+    rm -rf /var/lib/apt/lists/*
+
+# 安装 code-server 和 vscode 常用插件（合并）
+RUN curl -fsSL https://code-server.dev/install.sh | sh && \
+    code-server --install-extension redhat.vscode-yaml && \
+    code-server --install-extension dbaeumer.vscode-eslint && \
+    code-server --install-extension eamodio.gitlens && \
+    code-server --install-extension tencent-cloud.coding-copilot  && \
+    code-server --install-extension ms-python.python
+# 指定字符集
+ENV LANG C.UTF-8
+ENV LANGUAGE C.UTF-8
+
+# 安装 pip 包（合并所有pip安装，使用清华源，移除重复）
+RUN pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple && \
+    pip install --no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple \
+    modelscope "huggingface_hub[cli]" jupyterlab torch transformers coscmd \
+    datasets accelerate evaluate scikit-learn rouge_score vllm lm_eval ftfy matplotlib 
+
+# 配置 coscmd 并下载模型（合并到单个RUN，内置模型）
+RUN coscmd config -a AKIDjIeniP1CBzax73nKdS5Vih6LZZLuGOIy -s by73lFWny0oT0LTN8DB0d5JNEtY2JMCo -b aa-1366396205 -r ap-guangzhou && \
+#     mkdir -p /root/model/Qwen2-1.5B-Instruct && \
+    coscmd download -r /model/Qwen2-1.5B-Instruct /share/models/Qwen2-1.5B-Instruct && \
+    coscmd download -r /model/Qwen2-7B /share/models/Qwen2-7B 
+WORKDIR /share/models
+RUN GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/facebook/opt-6.7b && \
+    cd opt-6.7b && \
+    git lfs pull --include "pytorch_model*"
+
+
+

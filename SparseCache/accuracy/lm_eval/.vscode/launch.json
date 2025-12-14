@@ -1,0 +1,31 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "run_lm_eval_harness",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/workspace/SparseCache/accuracy/lm_eval/run_lm_eval_harness.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--model-type", "qwen2",
+                "--model-name", "/share/models/Qwen2-7B",
+                "--enable_heavy_hitter_masker",
+                "--heavy_budget_ratio", "0.1",
+                "--recent_budget_ratio", "0.1",
+                // "--ours",
+                // "--partial_weight_ratio", "0.2",
+                // "--partial_weight_path", "../setup/weights/Qwen2-7B_0.2",
+                // "--alpha", "5",
+                // "--capacity", "1.0",
+                // "--budget", "0.2",
+                // "--skewing_matrix_path", "../setup/skewing_matrix/Qwen2-7B.pt",
+                "--input-path", "results/rte-5.jsonl",
+                "--output-path", "results/rte-5-qwen2-7B-test2.jsonl"
+            ]
+        }
+    ]
+}

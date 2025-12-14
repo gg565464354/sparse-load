@@ -1,0 +1,3 @@
+---------------Result Summary---------------------
+TTFT with full prefill: 2.6246895774205528
+F1 with full prefill: 0.2509259369390149

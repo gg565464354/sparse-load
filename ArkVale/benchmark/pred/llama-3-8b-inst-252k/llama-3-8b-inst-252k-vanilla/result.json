@@ -1,0 +1,9 @@
+{
+    "hotpotqa": 27.65,
+    "narrativeqa": 15.81,
+    "qasper": 28.15,
+    "gov_report": 34.49,
+    "passage_retrieval_en": 87.0,
+    "passage_retrieval_zh": 75.0,
+    "triviaqa": 87.83
+}
